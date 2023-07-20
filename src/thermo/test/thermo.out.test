@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                                  John R. Barker
+        Thermo-2023               University of Michigan
+                                  Ann Arbor, MI 48109-2143
+        Mar 2023                  jrbarker@umich.edu
+                                  (734) 763 6239
+
+        http://clasp-research.engin.umich.edu/multiwell/
+
+
+....................................................
+          2023/03/24   07:10:28.809   (Local Time)
+          year/mm/dd   hr:mi:second
+                 CPU :        1.096 s (  0.000 hr)
+....................................................
+
+
+NO3                                  Molecular Wt. =  62.005  ;  Empirical Formula:      N  1       O  3
+   ! NIST / JANAF 1998: 78.95 ;   NASA/JPL 10-6: 79.9 +/- 1.1                                                                                            
+   ! vibs: Stanton, JCP 126, 134309 (2007); Stanton, Mol.Phys. 107,1059 (2009); Friedl, JPC 91, 2721 (1987); Fujimori, J.Mol.Spec 283, 10 (2013)         
+   ! rots: Fujimori et al. J. Mol. Spectrosc 283, 10-17 (2013)                                                                                           
+
+    Electronic Levels (degeneracies) 
+                0.00 cm-1 ( 2)
+
+    1  Vibrator: Fund=  1051.20  Harm=  1051.20  Anh(cm-1)=    0.00  zpe(cm-1)=    525.6     g=  1
+    2  Vibrator: Fund=   762.30  Harm=   762.30  Anh(cm-1)=    0.00  zpe(cm-1)=    381.1     g=  1
+    3  Vibrator: Fund=  1067.00  Harm=  1067.00  Anh(cm-1)=    0.00  zpe(cm-1)=   1067.0     g=  2
+    4  Vibrator: Fund=   365.50  Harm=   365.50  Anh(cm-1)=    0.00  zpe(cm-1)=    365.5     g=  2
+    5  Symm-Top  2D-Moment =   36.77 amua, B2 =  0.4585 cm-1  ;  1D-Moment =   73.74 amua, B1 =  0.2286 cm-1  ;  Symm. No. = 1
+
+
+C2H4                                 Molecular Wt. =  28.054  ;  Empirical Formula:      H  4       C  2
+   ! NIST / JANAF 1998                                                                                                                                   
+   ! delta-H(0 K) from ATcT v.1.112 (2013)                                                                                                               
+   ! (blank comment line)                                                                                                                                
+
+    Electronic Levels (degeneracies) 
+                0.00 cm-1 ( 1)
+
+    1  Vibrator: Fund=  3026.40  Harm=  3026.40  Anh(cm-1)=    0.00  zpe(cm-1)=   1513.2     g=  1
+    2  Vibrator: Fund=  1622.90  Harm=  1622.90  Anh(cm-1)=    0.00  zpe(cm-1)=    811.5     g=  1
+    3  Vibrator: Fund=  1342.20  Harm=  1342.20  Anh(cm-1)=    0.00  zpe(cm-1)=    671.1     g=  1
+    4  Vibrator: Fund=  1023.00  Harm=  1023.00  Anh(cm-1)=    0.00  zpe(cm-1)=    511.5     g=  1
+    5  Vibrator: Fund=  3102.50  Harm=  3102.50  Anh(cm-1)=    0.00  zpe(cm-1)=   1551.2     g=  1
+    6  Vibrator: Fund=  1222.00  Harm=  1222.00  Anh(cm-1)=    0.00  zpe(cm-1)=    611.0     g=  1
+    7  Vibrator: Fund=   949.30  Harm=   949.30  Anh(cm-1)=    0.00  zpe(cm-1)=    474.6     g=  1
+    8  Vibrator: Fund=   943.00  Harm=   943.00  Anh(cm-1)=    0.00  zpe(cm-1)=    471.5     g=  1
+    9  Vibrator: Fund=  3105.50  Harm=  3105.50  Anh(cm-1)=    0.00  zpe(cm-1)=   1552.8     g=  1
+   10  Vibrator: Fund=   826.00  Harm=   826.00  Anh(cm-1)=    0.00  zpe(cm-1)=    413.0     g=  1
+   11  Vibrator: Fund=  2988.70  Harm=  2988.70  Anh(cm-1)=    0.00  zpe(cm-1)=   1494.3     g=  1
+   12  Vibrator: Fund=  1443.50  Harm=  1443.50  Anh(cm-1)=    0.00  zpe(cm-1)=    721.8     g=  1
+   13  Symm-Top  2D-Moment =   18.52 amua, B2 =  0.9103 cm-1  ;  1D-Moment =    3.47 amua, B1 =  4.8573 cm-1  ;  Symm. No. = 1
+
+
+C2H4NO3                              Molecular Wt. =  90.059  ;  Empirical Formula:      H  4       C  2       N  1       O  3
+   !  Dihedral angle scan by Lam Nguyen                                                                                                                  
+   !  B3LYP/6-311+G(d,p) ;                                                                                                                               
+   !  Enthalpy from Nguyen, Song and Barker, JPCA 115, 4894-4901 (2011)                                                                                  
+
+    Electronic Levels (degeneracies) 
+                0.00 cm-1 ( 2)
+
+    1  General HindRotor:  Rotor symm. = 1                                  zpe(cm-1) =    58.7
+        VHRD2  ; symmV = 1  ; Phase(rad.) =   0.0000  ; Coeff. =  689.9400   784.7500   589.2900   465.3400    -2.3400   -47.9900    -7.4000
+        IHRD1  ; symmM = 1  ; Phase(rad.) =   0.0000  ; Coeff. =   15.5700    -1.8900     2.3300     0.4200     1.4600    -1.1900     0.6000
+    2  General HindRotor:  Rotor symm. = 1                                  zpe(cm-1) =    58.9
+        VHRD2  ; symmV = 2  ; Phase(rad.) =   0.0000  ; Coeff. = 1130.5676 -1133.3868     9.2250    -8.0745
+        IHRD1  ; symmM = 1  ; Phase(rad.) =   0.0000  ; Coeff. =   12.1382    -0.4921    -1.8135    -0.1782     0.2627     0.1354    -0.1136
+    3  General HindRotor:  Rotor symm. = 1                                  zpe(cm-1) =    29.9
+        VHRD2  ; symmV = 2  ; Phase(rad.) =   0.0000  ; Coeff. =   65.7333    82.0719    23.1855     9.2142
+        IHRD1  ; symmM = 1  ; Phase(rad.) =   0.0000  ; Coeff. =    1.7161     0.1393     0.0435    -0.5527    -0.0065    -0.1798     0.1715    -0.0254     0.1193    -0.0541     0.0267    -0.0548     0.0069
+    4  Vibrator: Fund=   318.67  Harm=   318.67  Anh(cm-1)=    0.00  zpe(cm-1)=    159.3     g=  1
+    5  Vibrator: Fund=   398.78  Harm=   398.78  Anh(cm-1)=    0.00  zpe(cm-1)=    199.4     g=  1
+    6  Vibrator: Fund=   540.64  Harm=   540.64  Anh(cm-1)=    0.00  zpe(cm-1)=    270.3     g=  1
+    7  Vibrator: Fund=   623.36  Harm=   623.36  Anh(cm-1)=    0.00  zpe(cm-1)=    311.7     g=  1
+    8  Vibrator: Fund=   670.22  Harm=   670.22  Anh(cm-1)=    0.00  zpe(cm-1)=    335.1     g=  1
+    9  Vibrator: Fund=   766.98  Harm=   766.98  Anh(cm-1)=    0.00  zpe(cm-1)=    383.5     g=  1
+   10  Vibrator: Fund=   809.69  Harm=   809.69  Anh(cm-1)=    0.00  zpe(cm-1)=    404.8     g=  1
+   11  Vibrator: Fund=   860.19  Harm=   860.19  Anh(cm-1)=    0.00  zpe(cm-1)=    430.1     g=  1
+   12  Vibrator: Fund=   894.71  Harm=   894.71  Anh(cm-1)=    0.00  zpe(cm-1)=    447.4     g=  1
+   13  Vibrator: Fund=  1073.45  Harm=  1073.45  Anh(cm-1)=    0.00  zpe(cm-1)=    536.7     g=  1
+   14  Vibrator: Fund=  1162.48  Harm=  1162.48  Anh(cm-1)=    0.00  zpe(cm-1)=    581.2     g=  1
+   15  Vibrator: Fund=  1297.07  Harm=  1297.07  Anh(cm-1)=    0.00  zpe(cm-1)=    648.5     g=  1
+   16  Vibrator: Fund=  1316.01  Harm=  1316.01  Anh(cm-1)=    0.00  zpe(cm-1)=    658.0     g=  1
+   17  Vibrator: Fund=  1372.83  Harm=  1372.83  Anh(cm-1)=    0.00  zpe(cm-1)=    686.4     g=  1
+   18  Vibrator: Fund=  1458.39  Harm=  1458.39  Anh(cm-1)=    0.00  zpe(cm-1)=    729.2     g=  1
+   19  Vibrator: Fund=  1482.47  Harm=  1482.47  Anh(cm-1)=    0.00  zpe(cm-1)=    741.2     g=  1
+   20  Vibrator: Fund=  1703.64  Harm=  1703.64  Anh(cm-1)=    0.00  zpe(cm-1)=    851.8     g=  1
+   21  Vibrator: Fund=  3071.16  Harm=  3071.16  Anh(cm-1)=    0.00  zpe(cm-1)=   1535.6     g=  1
+   22  Vibrator: Fund=  3132.49  Harm=  3132.49  Anh(cm-1)=    0.00  zpe(cm-1)=   1566.2     g=  1
+   23  Vibrator: Fund=  3151.04  Harm=  3151.04  Anh(cm-1)=    0.00  zpe(cm-1)=   1575.5     g=  1
+   24  Vibrator: Fund=  3264.23  Harm=  3264.23  Anh(cm-1)=    0.00  zpe(cm-1)=   1632.1     g=  1
+   25  Clas.Rot  AmuAng^2=   62.47  Symm=  1.   dim= 1  B=  0.2698 cm-1
+   26  Clas.Rot  AmuAng^2=  204.55  Symm=  1.   dim= 2  B=  0.0824 cm-1
+
+
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+
+THERMODYNAMIC QUANTITIES          Std. State = bar         
+   Entropy & Cp units: cal/K/mole
+   DelS         units: cal/K/mole
+   [H(T)-H(0)]  units: kcal/mole
+   DelH & DelG  units: kcal/mole
+
+Species Properties
+                                                      ----Enthalpy----
+ TYPE  NAME                                Mol.Wt.    (O K)  (298.15 K) DelG(298)    ZPE(cm-1) Symmetry  opt.isomers
+ REAC  NO3                                 62.005     79.90     78.66     88.99         2339.2      6         1
+ REAC  C2H4                                28.054     61.07     59.03     62.85        10797.5      4         1
+ PROD  C2H4NO3                             90.059     66.80     62.82     84.91        14831.8      1         1
+                                                    ------- ---------  --------      ---------
+               NET (prod - react):                   -74.17    -74.88    -66.93         1695.0
+
+
+                     Kequil = A*exp(B/T)                                                  (REAC) NO3                               (REAC) C2H4                              (PROD) C2H4NO3                         
+        T(K)     Kequil     A(T)       B(T)    DelS(rxn) DelH(rxn) DelCp(rxn) DelG(rxn)   Qelectr  Entropy  Cp  [H(T)-H(0)]        Qelectr  Entropy  Cp  [H(T)-H(0)]        Qelectr  Entropy  Cp  [H(T)-H(0)]
+      150.00  1.659+103  2.107E-06   37611.    -25.97     -74.74      -1.87     -70.85    2.00    54.27     9.60     1.26          1.00    46.39     8.05     1.19          2.00    74.69    15.78     1.88
+      200.00  9.602E+75  1.689E-06   37649.    -26.41     -74.82      -1.16     -69.53    2.00    57.18    10.67     1.77          1.00    48.75     8.45     1.60          2.00    79.52    17.95     2.72
+      300.00  5.222E+48  1.473E-06   37682.    -26.69     -74.88      -0.23     -66.88    2.00    61.90    12.73     2.94          1.00    52.48    10.29     2.53          2.00    87.70    22.79     4.76
+      400.00  1.202E+35  1.481E-06   37679.    -26.67     -74.88       0.30     -64.21    2.00    65.82    14.49     4.30          1.00    55.77    12.68     3.68          2.00    94.91    27.47     7.27
+      500.00  7.949E+26  1.567E-06   37653.    -26.56     -74.82       0.72     -61.54    2.00    69.20    15.81     5.82          1.00    58.85    14.93     5.06          2.00   101.48    31.46    10.23
+     1000.00  3.937E+10  2.429E-06   37324.    -25.69     -74.17       1.59     -48.48    2.00    81.25    18.56    14.58          1.00    71.80    22.44    14.62          2.00   127.35    42.59    29.20
+     2000.00  3.601E+02  4.146E-06   36560.    -24.63     -72.65       1.40     -23.39    2.00    94.51    19.52    33.77          1.00    89.58    28.29    40.60          2.00   159.46    49.21    75.89

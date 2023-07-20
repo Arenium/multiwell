@@ -1,0 +1,34 @@
+#!/bin/csh 
+ 
+set VERSION=1.1.3
+
+echo ' '
+echo 'Testing MultiWell'
+date
+
+echo 'Running multiwell'
+../multiwell
+echo 'done'
+
+echo ' ' 
+echo -n 'Would you like to compare the output versus the test output? [y/n]?'
+ set response=$<
+	if $response == 'y' then
+	else
+	echo 'Finished'
+	exit
+	endif
+echo ''
+
+echo 'Running diff'
+
+diff multiwell.array multiwell.array.test
+diff --text multiwell.out multiwell.out.test
+diff --text multiwell.sum multiwell.sum.test
+diff multiwell.dist multiwell.dist.test
+diff multiwell.rate multiwell.rate.test
+diff multiwell.flux multiwell.flux.test
+
+echo 'Finished'
+
+

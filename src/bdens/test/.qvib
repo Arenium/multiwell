@@ -1,0 +1,47 @@
+**************INPUT DATA SUMMARY**************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                      aDenSum-2011   
+
+                         Jan 2011
+
+              John R. Barker and Thanh Lam Nguyen
+          jrbarker@umich.edu     nguyenlt@umich.edu
+
+                   University of Michigan
+               Ann Arbor, Michigan 48109-2143
+
+           http://aoss.engin.umich.edu/multiwell
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Suggested Literature Citation:
+
+    a) MultiWell-2011   Software, Jan 2011, designed and
+       maintained by J.R. Barker with contributors N.F. Ortiz,
+       J.M. Preses, L.L. Lohr, A. Maranzana, P.J. Stimac, T. L.
+       Nguyen, and T. J. Dhilip Kumar, University of Michigan,
+       Ann Arbor, MI; http://aoss.engin.umich.edu/multiwell/
+
+    b) F. Wang and D.P. Landau, Phys. Rev. Letters 86, 
+       2050-2053 (2001).
+
+    c) M. Basire, P. Parneix, and F. Calvo, J. Chem.Phys. 129,
+       081101 (2008).
+
+    d) T.L. Nguyen and J.R. Barker, J. Phys. Chem. A., 114,
+       3718-3730 (2010).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+H2O       
+H2O from Exptl. data from Benedict et al., J. Chem. Phys. 1956, 24, 1139-1165                       
+X-matrix, only                                                                                      
+
+....................................................
+          2010/12/20   15:46:52.662   (Local Time)
+          year/mm/dd   hr:mi:second
+                 CPU :        0.005 s (  0.000 hr)
+....................................................

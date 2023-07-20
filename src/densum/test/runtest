@@ -1,0 +1,29 @@
+#!/bin/csh 
+
+set VERSION=1.1.3
+
+echo ' '
+echo 'Testing DenSum'
+date
+
+echo 'Running  DenSum'
+../densum
+echo 'done'
+
+echo ' ' 
+echo -n 'Would you like to compare the output versus the test output? [y/n]?'
+ set response=$<
+	if $response == 'y' then
+	else
+	echo 'Finished'
+	exit
+	endif
+echo ''
+
+echo 'Running diff'
+
+diff -s densum.out densum.out.test
+
+echo 'Finished'
+
+

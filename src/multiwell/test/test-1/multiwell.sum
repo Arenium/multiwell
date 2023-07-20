@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                                        John R. Barker
+              MultiWell-2020            University of Michigan
+                                        Ann Arbor, MI 48109-2143
+                Feb 2020                jrbarker@umich.edu
+                                        (734) 763 6239
+
+              http://clasp-research.engin.umich.edu/multiwell/
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        Suggested Literature Citations:
+
+    a) J.R. Barker, T.L. Nguyen, J.F. Stanton, C. Aieta, M. Ceotto,
+       F. Gabas, T.J.D. Kumar, C.G.L.Li, L.L.Lohr, A. Maranzana,
+       N.F. Ortiz, J.M. Preses, J.M. Simmie, J.A. Sonk, and P.J. Stimac; 
+       MultiWell-2020    Software Suite; University of Michigan, 
+       Ann Arbor, Michigan, USA, Feb 2020; 
+       http://clasp-research.engin.umich.edu/multiwell/.
+
+    b) J.R. Barker, Int. J. Chem. Kinetics, 33, 232-45 (2001)
+
+    c) J.R. Barker, Int. J. Chem. Kinetics, 41, 748-763 (2009)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+....................................................
+          2020/08/27   08:45:39.783   (Local Time)
+          year/mm/dd   hr:mi:second
+                 CPU :        0.004 s (  0.000 hr)
+....................................................
+Ge2H6 dissociation                                                                                  
+
+PARAMETERS FOR DOUBLE-ARRAYS:
+        Grain (cm-1)      Maximum Energy    Number of grains
+              10.000            2490.000                 250
+             341.365           85000.000                 250
+
+
+TEMPERATURES:
+        Translational Temperature =  1500.0 K
+  Initial Vibrational Temperature =  1500.0 K
+
+
+  1 WELLS and  1 PRODUCTS
+
+  Molec_No.:          1          2
+ Molec_Name: Ge2H6_____  GeH2+GeH4
+ delH(cm-1):    13535.5    12940.9
+   delH(kJ):      161.9      154.8
+ delH(kcal):       38.7       37.0
+ lowest_vib:      144.0
+  2D-moment:      228.0
+   ext_symm:         18
+Qel_partfxn:       1.00
+   opt_isom:          1
+ Thermal<E>:    11824.9
+
+Units: 2D-moment : amu Ang^2       Thermal<E>: cm-1 (at Translational T)
+
+
+COLLISION PARAMETERS FOR  1 WELLS
+ UNSPECIFIED ET TREATMENT: USE BARKER'S APPROACH
+ [J.R. Barker, Int. J. Chem. Kinetics, 41, 748-763 (2009)]
+
+Lennard-Jones Parameters & Pdown Models    [rate constants k(LJ) and k(QM) units: cc/sec]
+
+Mol   Sig(Ang)      Eps/k MolWt(amu)     NetSig   NetEps/k    RedMass     k(LJ)    k(QM)     Used
+  0      5.200    212.000    146.000
+  1      5.200    270.000    151.230      5.200    239.249     74.284  4.933E-10  8.802E-09  4.933E-10
+
+
+
+Well number:  1     Name: Ge2H6_____
+Reference energy for collision frequency:  2490.0 cm-1
+Collision parameters:
+  3.500E+02  0.000E+00  0.000E+00  0.000E+00  0.000E+00  0.000E+00  0.000E+00  0.000E+00
+ Biexponential Model                                                                                
+ Alpha1= [C(1) + E*C(2) + E*E*C(3)]*(T/300)**C(8)                                                   
+ Alpha2= [C(5) + E*C(6) + E*E*C(7)]*(T/300)**C(8)                                                   
+ Pdown = (1-C(4))*EXP(-(E-EE)/Alpha1) + C(4)*EXP(-(E-EE)/Alpha2)                                    
+                                                                                                    
+
+       1 REACTION RATE CONSTANTS: Canonical k(infinity)
+               01-->02
+    TS_Name: Ge2H6TS___
+  2D-moment:      569.9
+   ext_symm:          3
+Qel_partfxn:       1.00
+   opt_isom:          1
+Rx_Path*Qel:        6.0
+ delH(cm-1):    26476.5
+   delH(kJ):      316.7
+ delH(kcal):       75.7
+   Eo(cm-1):    12940.9
+     Eo(kJ):     154.81
+   Eo(kcal):      37.00
+     k(inf):   9.17E-21
+     A(inf):    6.6E-19
+ E(inf)kcal:       12.7
+   E(inf)kJ:       53.2
+ koSC(cc/s):   4.52E-10
+Centr.Corr.:         -2
+Eocent/cm-1:        0.0
+     Source:          1
+TUN   vimag:        0.0
+ WARNING!!!:          0
+-----------
+SOURCE: 0=> ILT method; 1=> sums of states file; 2=> k(E) file; -2=> for reverse rxn; 3=> CRP file.
+CENTR.CORR.: 0=> none; 1=> 1-D adiabatic rotor; 2=> 2-D adiabatic rotor; -2=> legacy (not recommended).
+WARNING: number of energy grains where Reactant Well has states, but Product Well has none to match [set k(E) = 0].
+
+RESULTS FOR 1.E+03 TRIALS
+
+
+****Shifted Thermal (at Tvib)****
+     Tvib   = 1500.0 K
+     Ttrans = 1500.0 K
+Initial Molecule: Ge2H6_____
+E(shift) =       0.0 cm-1
+Starting random number seed = 2113989025
+Ending   random number seed = 1948868851
+
+                Name:         Ge2H6_____                        GeH2+GeH4
+        deltaH(cm-1):         13535.5
+   1/cc  Collisns(Mol=1)   Fract(01) +/-Error  <Evib(01)>   Fract(02) +/-Error  <Evib(02)>
+  7.243E+16  1.000E+03     1.000E+00  0.0E+00  11714.       0.000E+00  0.0E+00      0.
+  4.829E+20  1.000E+03     1.000E+00  0.0E+00  11689.       0.000E+00  0.0E+00      0.

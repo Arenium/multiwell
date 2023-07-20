@@ -1,0 +1,29 @@
+#!/bin/csh 
+
+set VERSION=2010.0
+
+echo ' '
+echo 'Testing LAMM'
+date
+
+echo 'Running  LAMM'
+../lamm
+echo 'done'
+
+echo ' ' 
+echo -n 'Would you like to compare the output versus the test output? [y/n]?'
+ set response=$<
+	if $response == 'y' then
+	else
+	echo 'Finished'
+	exit
+	endif
+echo ''
+
+echo 'Running diff'
+
+diff -s lamm.out lamm.out.test
+
+echo 'Finished'
+
+

@@ -1,0 +1,33 @@
+#!/bin/csh  
+
+set VERSION=1.0
+
+echo ' '
+echo 'Testing thermo'
+date
+
+set current=$PWD
+
+echo 'Running thermo'
+../thermo
+echo 'done'
+
+echo ' ' 
+echo -n 'Would you like to compare the output versus the test output? [y/n]?'
+ set response=$<
+	if $response == 'y' then
+	else
+	echo 'Finished'
+	exit
+	endif
+echo ''
+
+echo 'Running diff'
+echo ''
+
+diff thermo.out thermo.out.test
+
+echo ''
+echo 'Finished'
+
+

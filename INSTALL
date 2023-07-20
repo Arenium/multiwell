@@ -1,0 +1,24 @@
+##################################
+     COMPILATION (LINUX ONLY)
+##################################
+
+GFORTRAN and openMPI  compilers must be installed before attempting 
+to compile the MultiWell package.
+
+In the current directory type:
+
+make
+
+The code will be compiled and the binaries will be put in ./bin
+They may then be copied (or linked) to a directory in PATH 
+like /usr/local/bin.
+
+##################################
+           TESTING
+##################################
+
+The MultiWell tools may be tested after compilation by:
+
+1) Typing: ./runtest_all from the /scripts directory.
+
+ 

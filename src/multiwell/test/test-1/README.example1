@@ -1,0 +1,29 @@
+Example #1: Thermal Decomposition of Ge2H6
+
+This example is loosely based on the reaction:
+
+GeH3-GeH3  --> GeH2 + GeH4
+
+The vibrational frequencies are contained in files "Ge2H6.vibs" and 
+"Ge2H6TS.vibs" from  U. N. Alexander, N. A. Trout, K. D. King-KD, and W. D. 
+Lawrance, Chem. Phys. Letters, 299, 291-5.  The moments of inertia were 
+estimated, based on a MOPAC calculation.  Energy transfer parameters are 
+strictly hypothetical.
+
+Densities and sums of states were calculated using Densum and are contained in 
+files "Ge2H6     .dens" and "Ge2H6TS   .dens".
+
+"Germylene.dat" is the data file for MultiWell. Also given are the 
+corresponding MultiWell output files.
+
+The pressure-dependent unimolecular rate constant k(M,T) is given by
+
+k(M,T) = k(inf,T) * f(M,T)
+
+where k(inf,T) is the unimolecular decomposition rate constant at infinite 
+pressure (obtained from MultiWell.OUT) and f(M,T) is the mole fraction of the 
+stabilized Ge2H6 (obtained from MultiWell.OUT) produced at the same pressure and 
+temperature.
+
+For slow unimolecular reactions, calculation of f(M,T) will require many 
+trials of long duration.

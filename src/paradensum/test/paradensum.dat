@@ -1,0 +1,44 @@
+H2O 
+H2O from Exptl. data from Benedict et al., J. Chem. Phys. 1956, 24, 1139-1165
+X-matrix, only
+
+3, 0, 0, 'We'
+
+3813.085
+1646.495
+3944.140
+lower
+-42.58
+-15.93  -16.81
+-165.82  -20.32  -47.57
+
+0      'CM-1'
+
+10.  1000  2000  30000.
+'xxchekstart' H2O.chk
+
+1	!nwalkers
+70.d0	!perc_wind_overlap
+0.95d0  !flatness
+1	!writing
+0	!seed modifier
+const   !Windows balance  (const / low / high)
+
+
+====================================================================
+Alternative input lines to replace 4,5:
+
+4    rot   27.8847  1.0     1     ! cm-1 K-rotor
+5    rot   11.6051  1.0     2     ! cm-1 2-D rotor
+
+4    qrot   0.6046  1.0     1     ! AMUA K-rotor
+5    qrot   1.4526  1.0     2     ! AMUA 2-D rotor
+
+6    vib   100.    -0.01    1     ! arbitrary vib for testing
+7    box   100.     0.0     2     ! arbitrary box for testing
+
+
+
+2      'CM-1'
+4    rot   27.8847  1.0     1     ! cm-1 K-rotor
+5    qro   11.6051  1.0     2     ! cm-1 2-D rotor

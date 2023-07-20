@@ -1,0 +1,24 @@
+ Ngrains:         3002
+ ************************
+ WARNING! New parameters:
+ ngrains:         3004
+ Emax:    30030.000000000000     
+ ************************
+ wind           1 ngrains_per_wind        1014
+ wind           1 ngrains_per_chunk         751
+ wind           2 ngrains_per_wind        1014
+ wind           2 ngrains_per_chunk         751
+ wind           3 ngrains_per_wind        1014
+ wind           3 ngrains_per_chunk         751
+ wind           4 ngrains_per_wind        1014
+ wind           4 ngrains_per_chunk         751
+ Lowbound array:
+           1   0.0000000000000000     
+           2   7510.0000000000000     
+           3   15020.000000000000     
+           4   22530.000000000000     
+ Upbound array:
+           1   10140.000000000000     
+           2   17650.000000000000     
+           3   25160.000000000000     
+           4   32670.000000000000     

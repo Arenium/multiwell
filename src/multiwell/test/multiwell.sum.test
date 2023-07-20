@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                                        John R. Barker
+              MultiWell-2023            University of Michigan
+                                        Ann Arbor, MI 48109-2143
+                Mar 2023                jrbarker@umich.edu
+                                        (734) 763 6239
+
+              http://clasp-research.engin.umich.edu/multiwell/
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        Suggested Literature Citations:
+
+    a) J.R. Barker, T.L. Nguyen, J.F. Stanton, C. Aieta, M. Ceotto,
+       F. Gabas, T.J.D. Kumar, C.G.L.Li, L.L.Lohr, A. Maranzana,
+       N.F. Ortiz, J.M. Preses, J.M. Simmie, J.A. Sonk, and P.J. Stimac; 
+       MultiWell-2023    Software Suite; University of Michigan, 
+       Ann Arbor, Michigan, USA, Mar 2023; 
+       http://clasp-research.engin.umich.edu/multiwell/.
+
+    b) J.R. Barker, Int. J. Chem. Kinetics, 33, 232-45 (2001)
+
+    c) J.R. Barker, Int. J. Chem. Kinetics, 41, 748-763 (2009)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+....................................................
+          2023/03/24   07:09:56.095   (Local Time)
+          year/mm/dd   hr:mi:second
+                 CPU :        0.026 s (  0.000 hr)
+....................................................
+C2F3H3- TFE tunneling example                                                                       
+
+PARAMETERS FOR DOUBLE-ARRAYS:
+        Grain (cm-1)      Maximum Energy    Number of grains
+              10.000            4990.000                 500
+             200.401          100000.000                 500
+
+
+TEMPERATURES:
+        Translational Temperature =  2000.0 K
+  Initial Vibrational Temperature =   300.0 K
+
+
+  1 WELLS and  1 PRODUCTS
+
+  Molec_No.:          1          2
+ Molec_Name: C2H3F3____ C2H2F2+HF_
+ delH(cm-1):        0.0    11122.2
+   delH(kJ):        0.0      133.1
+ delH(kcal):        0.0       31.8
+ lowest_vib:      249.0
+  2D-moment:       95.6
+   ext_symm:          3
+Qel_partfxn:       1.00
+   opt_isom:          1
+ Thermal<E>:    15889.4
+
+Units: 2D-moment : amu Ang^2       Thermal<E>: cm-1 (at Translational T)
+
+
+COLLISION PARAMETERS FOR  1 WELLS
+ XXXET
+ UNSPECIFIED ET TREATMENT: USE BARKER'S APPROACH
+ [J.R. Barker, Int. J. Chem. Kinetics, 41, 748-763 (2009)]
+
+Lennard-Jones Parameters & Pdown Models    [rate constants k(LJ) and k(QM) units: cc/sec]
+
+Mol  Sig(Angstrom)  Eps/k MolWt(amu)     NetSig   NetEps/k    RedMass     k(LJ)    k(QM)     Used
+  0      3.610    190.000     83.800
+  1      4.959    387.200     84.041      4.284    271.234     41.960  5.010E-10  7.524E-09  5.010E-10
+  
+ ENERGY TRANSFER STEP-SIZE PARAMETERS
+
+Well number:  1     Name: C2H3F3____
+Reference energy for collision frequency: 24290.5 cm-1
+Collision parameters:
+  1.200E+01  2.500E-02  9.000E+01  4.000E-02  5.250E+02  2.500E+01  0.000E+00  0.000E+00
+ Exponential Model with Switching Function                                                          
+  Alpha1 = C(1) + E*C(2);      Alpha2 = C(3) + E*C(4)                                               
+ Alp = Alpha1 + 0.5*(Alpha2 - Alpha1)*(1. - TANH((C(5)-E)/C(6)))                                    
+ Pdown = EXP(-(E-EE)/Alp)                                                                           
+                                                                                                    
+
+       1 REACTION RATE CONSTANTS: Canonical k(infinity)
+                01-->02
+    TS_Name: TS-C2H3F3_
+  2D-moment:      112.5
+   ext_symm:          1
+Qel_partfxn:       1.00
+   opt_isom:          1
+Rx_Path*Qel:        3.0
+ delH(cm-1):    24290.5
+   delH(kJ):      290.6
+ delH(kcal):       69.5
+   Eo(cm-1):    24290.5
+     Eo(kJ):     290.58
+   Eo(kcal):      69.45
+     k(inf):   4.59E+06
+     A(inf):    4.3E+14
+ E(inf)kcal:       73.0
+   E(inf)kJ:      305.4
+ koSC(cc/s):   0.00E+00
+Centr.Corr.:          0
+Eocent/cm-1:    24290.5
+     Source:          1
+TUN   vimag:     1650.0
+ WARNING!!!:          0
+-----------
+SOURCE: 0=> ILT method; 1=> sums of states file; 2=> k(E) file; -2=> for reverse rxn; 3=> CRP file.
+CENTR.CORR.: 0=> none; 1=> 1-D adiabatic rotor; 2=> 2-D adiabatic rotor; -2=> legacy (not recommended).
+WARNING: number of energy grains where Reactant Well has states, but Product Well has none to match [set k(E) = 0].
+
+RESULTS FOR 1.E+04 TRIALS
+
+
+****Shifted Thermal (at Tvib)****
+     Tvib   =  300.0 K
+     Ttrans = 2000.0 K
+Initial Molecule: C2H3F3____
+E(shift) =       0.0 cm-1
+Starting random number seed = 2113989025
+Ending   random number seed = 1948868851
+
+                Name:         C2H3F3____                       C2H2F2+HF_
+        deltaH(cm-1):             0.0
+   1/cc  Collisns(Mol=1)   Fract(01) +/-Error  <Evib(01)>   Fract(02) +/-Error  <Evib(02)>
+  4.828E+15  1.000E+03     5.045E-01  5.0E-03   6928.       4.955E-01  5.0E-03      0.
+  4.828E+16  1.000E+03     6.119E-01  4.9E-03   8427.       3.881E-01  4.9E-03      0.
+  4.828E+17  1.000E+03     7.539E-01  4.3E-03   9852.       2.461E-01  4.3E-03      0.

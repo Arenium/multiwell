@@ -1,0 +1,114 @@
+#!/bin/csh
+
+echo ''
+echo 'Running all tests'
+
+set mult_dir=$PWD
+
+echo ''
+echo '----------------------------------------------------------------'
+cd $mult_dir/../src/multiwell/test
+
+./runtest
+
+echo ''
+echo '----------------------------------------------------------------'
+cd $mult_dir/../src/densum/test
+
+./runtest
+
+echo ''
+echo '----------------------------------------------------------------'
+cd $mult_dir/../src/mominert/test
+./runtest
+
+echo ''
+echo '----------------------------------------------------------------'
+cd $mult_dir/../src/thermo/test
+
+./runtest
+
+echo ''
+echo '----------------------------------------------------------------'
+cd $mult_dir/../src/bdens/test
+
+./runtest
+
+echo ''
+echo '----------------------------------------------------------------'
+cd $mult_dir/../src/lamm/test
+
+./runtest
+
+echo ''
+echo '----------------------------------------------------------------'
+cd $mult_dir/../src/paradensum/test
+
+./runtest
+
+echo ''
+echo '----------------------------------------------------------------'
+cd $mult_dir/../src/sctst/test
+
+./runtest
+
+echo ''
+echo '----------------------------------------------------------------'
+cd $mult_dir/../src/parsctst/test
+
+./runtest
+
+echo ''
+echo '----------------------------------------------------------------'
+cd $mult_dir/../src/ktools/test
+
+./runtest
+
+echo ''
+echo '----------------------------------------------------------------'
+echo 'Tests Finished'
+
+echo '  '
+echo '  '
+
+echo 'Administrator: replace old Test files with new ones? [y/n]'
+set response=$<
+if $response == 'n' then
+  exit
+else
+  cd $mult_dir/../src/multiwell/test; 
+  mv multiwell.out multiwell.out.test;
+  mv multiwell.sum multiwell.sum.test; 
+  mv multiwell.dist multiwell.dist.test; 
+  mv multiwell.rate multiwell.rate.test; 
+  mv multiwell.flux multiwell.flux.test; 
+  mv multiwell.array multiwell.array.test;
+
+ cd $mult_dir/../src/densum/test;
+ mv densum.out densum.out.test;
+
+ cd $mult_dir/../src/mominert/test;
+ mv mominert.out mominert.out.test;
+
+ cd $mult_dir/../src/thermo/test;
+ mv thermo.out thermo.out.test;
+
+ cd $mult_dir/../src/bdens/test;
+ mv bdens.out bdens.out.test;
+
+ cd $mult_dir/../src/lamm/test;
+ mv lamm.out lamm.out.test;
+
+ cd $mult_dir/../src/sctst/test;
+ mv sctst.out sctst.out.test;
+ 
+ cd $mult_dir/../src/ktools/test;
+ mv hono2.canonical hono2.canonical.test;
+ 
+ cd $mult_dir/../src/paradensum/test;
+ mv paradensum.out paradensum.out.test;
+  
+
+endif
+
+echo 'Test files have been replaced'

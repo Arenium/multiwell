@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                                        John R. Barker
+              MultiWell-2019            University of Michigan
+                                        Ann Arbor, MI 48109-2143
+                Apr 2019                jrbarker@umich.edu
+                                        (734) 763 6239
+
+              http://clasp-research.engin.umich.edu/multiwell/
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        Suggested Literature Citations:
+
+    a) J.R. Barker, T.L. Nguyen, J.F. Stanton, C. Aieta, M. Ceotto,
+       F. Gabas, T.J.D. Kumar, C.G.L.Li, L.L.Lohr, A. Maranzana,
+       N.F. Ortiz, J.M. Preses, J.M. Simmie, J.A. Sonk, and P.J. Stimac; 
+       MultiWell-2019    Software Suite; University of Michigan, 
+       Ann Arbor, Michigan, USA, Apr 2019; 
+       http://clasp-research.engin.umich.edu/multiwell/.
+
+    b) J.R. Barker, Int. J. Chem. Kinetics, 33, 232-45 (2001)
+
+    c) J.R. Barker, Int. J. Chem. Kinetics, 41, 748-763 (2009)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+....................................................
+          2019/05/01   07:24:03.432   (Local Time)
+          year/mm/dd   hr:mi:second
+                 CPU :        0.002 s (  0.000 hr)
+....................................................
+C2H6 dissociation                                                                                   
+
+PARAMETERS FOR DOUBLE-ARRAYS:
+        Grain (cm-1)      Maximum Energy    Number of grains
+              10.000           14990.000                1500
+             170.341           85000.000                 500
+
+
+TEMPERATURES:
+        Translational Temperature =  1500.0 K
+  Initial Vibrational Temperature =  1500.0 K
+
+
+  1 WELLS and  1 PRODUCTS
+
+  Molec_No.:          1          2
+ Molec_Name: C2H6______ CH3+CH3___
+ delH(cm-1):    -5702.7    25078.0
+   delH(kJ):      -68.2      300.0
+ delH(kcal):      -16.3       71.7
+ lowest_vib:      310.8
+  2D-moment:       25.3
+   ext_symm:          6
+Qel_partfxn:       1.00
+   opt_isom:          1
+ Thermal<E>:     8389.5
+
+Units: 2D-moment : amu Ang^2       Thermal<E>: cm-1 (at Translational T)
+
+
+COLLISION PARAMETERS FOR  1 WELLS
+ TRADITIONAL APPROACH TO ENERGY TRANSFER
+
+Lennard-Jones Parameters & Pdown Models    [rate constants k(LJ) and k(QM) units: cc/sec]
+
+Mol   Sig(Ang)      Eps/k MolWt(amu)     NetSig   NetEps/k    RedMass     k(LJ)    k(QM)     Used
+  0      3.470    114.000     40.000
+  1      4.390    234.000     30.000      3.930    163.328     17.143  5.519E-10  5.990E-09  5.519E-10
+
+
+
+Well number:  1     Name: C2H6______
+Reference energy for collision frequency:     0.0 cm-1
+Collision parameters:
+  5.000E+02  0.000E+00  0.000E+00  0.000E+00  0.000E+00  0.000E+00  0.000E+00  0.000E+00
+ Biexponential Model                                                                                
+ Alpha1= [C(1) + E*C(2) + E*E*C(3)]*(T/300)**C(8)                                                   
+ Alpha2= [C(5) + E*C(6) + E*E*C(7)]*(T/300)**C(8)                                                   
+ Pdown = (1-C(4))*EXP(-(E-EE)/Alpha1) + C(4)*EXP(-(E-EE)/Alpha2)                                    
+                                                                                                    
+
+       1 REACTION RATE CONSTANTS: Canonical k(infinity)
+               01-->02
+    TS_Name: 3parTS1924
+  2D-moment:      148.3
+   ext_symm:          6
+Qel_partfxn:       1.00
+   opt_isom:          1
+Rx_Path*Qel:        1.0
+ delH(cm-1):    25078.0
+   delH(kJ):      300.0
+ delH(kcal):       71.7
+   Eo(cm-1):    30780.8
+     Eo(kJ):     368.22
+   Eo(kcal):      88.01
+     k(inf):   3.93E+03
+     A(inf):    2.6E+14
+ E(inf)kcal:       74.2
+   E(inf)kJ:      310.6
+ koSC(cc/s):   2.15E-13
+Centr.Corr.:          2
+Eocent/cm-1:    25712.2
+     Source:          1
+TUN   vimag:        0.0
+ WARNING!!!:          0
+-----------
+SOURCE: 0=> ILT method; 1=> sums of states file; 2=> k(E) file; -2=> for reverse rxn; 3=> CRP file.
+CENTR.CORR.: 0=> none; 1=> 1-D adiabatic rotor; 2=> 2-D adiabatic rotor; -2=> legacy (not recommended).
+WARNING: number of energy grains where Reactant Well has states, but Product Well has none to match [set k(E) = 0].
+
+RESULTS FOR 1.E+03 TRIALS
+
+
+****Chemical Activation (at Tvib)****
+     Tvib   = 1500.0 K
+     Ttrans = 1500.0 K
+Excited Molecule: C2H6______
+   Produced from: CH3+CH3___
+Starting random number seed = 2113989025
+Ending   random number seed = 1948868851
+
+                Name:         C2H6______                       CH3+CH3___
+        deltaH(cm-1):         -5702.7
+   1/cc  Collisns(Mol=1)   Fract(01) +/-Error  <Evib(01)>   Fract(02) +/-Error  <Evib(02)>
+  4.893E+16  4.000E+02     2.200E-02  4.6E-03   7844.       9.780E-01  4.6E-03      0.
+  4.893E+17  4.000E+02     1.020E-01  9.6E-03   8826.       8.980E-01  9.6E-03      0.
+  4.893E+18  4.000E+02     3.370E-01  1.5E-02   8897.       6.630E-01  1.5E-02      0.
+  4.893E+19  4.000E+02     6.840E-01  1.5E-02   8707.       3.160E-01  1.5E-02      0.
+  4.893E+20  4.000E+02     9.060E-01  9.2E-03   8998.       9.400E-02  9.2E-03      0.

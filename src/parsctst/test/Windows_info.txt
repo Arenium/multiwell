@@ -1,0 +1,23 @@
+ ************************
+ WARNING! New parameters:
+ ngrains:         6004
+ Emax:    30015.000000000000     
+ ************************
+ wind           1 ngrains_per_wind        2026
+ wind           1 ngrains_per_chunk        1501
+ wind           2 ngrains_per_wind        2026
+ wind           2 ngrains_per_chunk        1501
+ wind           3 ngrains_per_wind        2026
+ wind           3 ngrains_per_chunk        1501
+ wind           4 ngrains_per_wind        2026
+ wind           4 ngrains_per_chunk        1501
+ Lowbound array:
+           1   0.0000000000000000     
+           2   7505.0000000000000     
+           3   15010.000000000000     
+           4   22515.000000000000     
+ Upbound array:
+           1   10130.000000000000     
+           2   17635.000000000000     
+           3   25140.000000000000     
+           4   32645.000000000000     

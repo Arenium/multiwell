@@ -1,0 +1,46 @@
+ KJOU  MCC
+ 7
+100. 200. 300. 500. 1000. 1500. 2000. 
+
+ 3
+
+reac   Cl   0.0             !   119.621           
+Cl
+! NIST / JANAF 1998
+! (blank comment line)
+! (blank comment line)
+1    1    2
+0.0    4
+882.36 2
+0  'HAR'  'AMUA'
+
+reac    ch4      0.0
+CH4
+! 
+! harmonic frequencies aVTZ; anharmonicities aVDZ
+!
+12  1  1
+0.0   1
+1  'HAR'  'GHZ'
+1    qvb     0.0      1.0     1     ! read external file
+
+ctst    T-52ch4      13.954  0.0  0.0 
+ClCH4
+! FULL CCSD(T)/aVTZ-freq & CCSD(T)/aVTZ-Xij matrix 
+!
+!
+1  1  1
+0.0   2
+1  'HAR'  'CM-1'
+1	crp	1	1	1
+
+
+
+
+
+
+
+
+
+
+ 

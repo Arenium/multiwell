@@ -1,0 +1,156 @@
+ I am rank number           1 and I am computing window number            1
+ Starting point selection time:   5.9999999999999832E-006
+ window            1 walker            1
+ Emin - Emax    0.0000000000000000       -    10130.000000000000     
+ energy    540.50284999999712     
+ quantum numbers            0           0           1           0           0           0           0           0           0           0           0
+ nold          109
+ Iteration =  1/21     f =   1.00E+00     p =  9.091E-02
+ rank           1 f           1 Steps to flatness:       270000 + 2E+09 *            0
+ Nout        49046 Nrej        92552 Nacc       128402
+
+ Actual Flatness  0.67653703703703694     
+
+ H_flatness  0.67653703703703694     
+ Iteration =  2/21     f =   5.00E-01     p =  9.091E-02
+ rank           1 f           2 Steps to flatness:       220000 + 2E+09 *            0
+ Nout        36678 Nrej        77686 Nacc       105636
+
+ Actual Flatness  0.61399999999999999     
+
+ H_flatness  0.89907142857142863     
+ Iteration =  3/21     f =   2.50E-01     p =  9.091E-02
+ rank           1 f           3 Steps to flatness:       290000 + 2E+09 *            0
+ Nout        48346 Nrej        96347 Nacc       145307
+
+ Actual Flatness  0.60341379310344823     
+
+ H_flatness  0.91116025641025644     
+ Iteration =  4/21     f =   1.25E-01     p =  9.091E-02
+ rank           1 f           4 Steps to flatness:       220000 + 2E+09 *            0
+ Nout        36895 Nrej        70173 Nacc       112932
+
+ Actual Flatness  0.64190909090909098     
+
+ H_flatness  0.90872000000000008     
+ Iteration =  5/21     f =   6.25E-02     p =  9.091E-02
+ rank           1 f           5 Steps to flatness:       230000 + 2E+09 *            0
+ Nout        39329 Nrej        70169 Nacc       120502
+
+ Actual Flatness  0.62067391304347830     
+
+ H_flatness  0.90352845528455283     
+ Iteration =  6/21     f =   3.12E-02     p =  9.091E-02
+ rank           1 f           6 Steps to flatness:       350000 + 2E+09 *            0
+ Nout        59491 Nrej       103387 Nacc       187122
+
+ Actual Flatness  0.63592857142857140     
+
+ H_flatness  0.90059810126582285     
+ Iteration =  7/21     f =   1.56E-02     p =  9.091E-02
+ rank           1 f           7 Steps to flatness:       380000 + 2E+09 *            0
+ Nout        65110 Nrej       110454 Nacc       204436
+
+ Actual Flatness  0.65035526315789471     
+
+ H_flatness  0.90220408163265309     
+ Iteration =  8/21     f =   7.81E-03     p =  9.091E-02
+ rank           1 f           8 Steps to flatness:       490000 + 2E+09 *            0
+ Nout        81255 Nrej       142760 Nacc       265985
+
+ Actual Flatness  0.61713265306122456     
+
+ H_flatness  0.91160204081632645     
+ Iteration =  9/21     f =   3.91E-03     p =  9.091E-02
+ rank           1 f           9 Steps to flatness:       610000 + 2E+09 *            0
+ Nout       105676 Nrej       171361 Nacc       332963
+
+ Actual Flatness  0.62909836065573776     
+
+ H_flatness  0.90645261437908498     
+ Iteration = 10/21     f =   1.95E-03     p =  9.091E-02
+ rank           1 f          10 Steps to flatness:       770000 + 2E+09 *            0
+ Nout       131080 Nrej       218317 Nacc       420603
+
+ Actual Flatness  0.61001298701298701     
+
+ H_flatness  0.91859530026109670     
+ Iteration = 11/21     f =   9.77E-04     p =  9.091E-02
+ rank           1 f          11 Steps to flatness:       730000 + 2E+09 *            0
+ Nout       127538 Nrej       203388 Nacc       399074
+
+ Actual Flatness  0.62871917808219180     
+
+ H_flatness  0.90315899122807020     
+ Iteration = 12/21     f =   4.88E-04     p =  9.091E-02
+ rank           1 f          12 Steps to flatness:       460000 + 2E+09 *            0
+ Nout        77765 Nrej       131783 Nacc       250452
+
+ Actual Flatness  0.61066304347826084     
+
+ H_flatness  0.91060358565737054     
+ Iteration = 13/21     f =   2.44E-04     p =  9.091E-02
+ rank           1 f          13 Steps to flatness:      1920000 + 2E+09 *            0
+ Nout       335001 Nrej       537415 Nacc      1047584
+
+ Actual Flatness  0.60120833333333323     
+
+ H_flatness  0.88273559077809804     
+ Iteration = 14/21     f =   1.22E-04     p =  9.091E-02
+ rank           1 f          14 Steps to flatness:       830000 + 2E+09 *            0
+ Nout       143458 Nrej       233252 Nacc       453290
+
+ Actual Flatness  0.60845180722891568     
+
+ H_flatness  0.90717117117117108     
+ Iteration = 15/21     f =   6.10E-05     p =  9.091E-02
+ rank           1 f          15 Steps to flatness:       650000 + 2E+09 *            0
+ Nout       113037 Nrej       181818 Nacc       355145
+
+ Actual Flatness  0.61636153846153841     
+
+ H_flatness  0.89529513064133015     
+ Iteration = 16/21     f =   3.05E-05     p =  9.091E-02
+ rank           1 f          16 Steps to flatness:      1230000 + 2E+09 *            0
+ Nout       209712 Nrej       347155 Nacc       673133
+
+ Actual Flatness  0.65643089430894308     
+
+ H_flatness  0.89968497409326420     
+ Iteration = 17/21     f =   1.53E-05     p =  9.091E-02
+ rank           1 f          17 Steps to flatness:       540000 + 2E+09 *            0
+ Nout        95363 Nrej       150675 Nacc       293962
+
+ Actual Flatness  0.61684259259259255     
+
+ H_flatness  0.90699067713444559     
+ Iteration = 18/21     f =   7.63E-06     p =  9.091E-02
+ rank           1 f          18 Steps to flatness:       690000 + 2E+09 *            0
+ Nout       119233 Nrej       194026 Nacc       376741
+
+ Actual Flatness  0.60732608695652168     
+
+ H_flatness  0.90026056985294123     
+ Iteration = 19/21     f =   3.81E-06     p =  9.091E-02
+ rank           1 f          19 Steps to flatness:       700000 + 2E+09 *            0
+ Nout       119577 Nrej       197983 Nacc       382440
+
+ Actual Flatness  0.60084285714285712     
+
+ H_flatness  0.90376770293609676     
+ Iteration = 20/21     f =   1.91E-06     p =  9.091E-02
+ rank           1 f          20 Steps to flatness:       580000 + 2E+09 *            0
+ Nout        97830 Nrej       164626 Nacc       317544
+
+ Actual Flatness  0.60870689655172416     
+
+ H_flatness  0.90345353618421054     
+ Iteration = 21/21     f =   9.54E-07     p =  9.091E-02
+ rank           1 f          21 Steps to flatness:      1240000 + 2E+09 *            0
+ Nout       211301 Nrej       351274 Nacc       677425
+
+ Actual Flatness  0.62018951612903228     
+
+ H_flatness  0.89740223880597025     
+ wind           1 ref           1
+ wind           1 time   4.3742609999999997     

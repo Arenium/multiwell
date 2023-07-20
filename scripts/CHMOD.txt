@@ -1,0 +1,7 @@
+LINUX command to change permissions on file "runtest" (modify as necessary):
+
+chmod u=rwx,g=rwx,o=rwx runtest
+
+
+LINUX command to REMOVE EXECUTE permissions on a file:
+chmod u=rw,g=rw,o=rw <FILENAME>

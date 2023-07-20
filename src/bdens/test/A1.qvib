@@ -1,0 +1,68 @@
+**************INPUT DATA SUMMARY**************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                     bdens-2019    (Apr 2019)
+
+Copyright (C) 2016, 2017 Collin G.L. Li, Thanh Lam Nguyen, and John R. Barker
+
+        CONTACT:         John R. Barker
+                      (jrbarker@umich.edu)
+                     University of Michigan
+                  Ann Arbor, Michigan 48109-2143
+
+         http://clasp-research.engin.umich.edu/multiwell/
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Suggested Literature Citations:
+
+    a) J.R. Barker, T.L. Nguyen, J.F. Stanton, C. Aieta, M. Ceotto,
+       F. Gabas, T.J.D. Kumar, C.G.L.Li, L.L.Lohr, A. Maranzana,
+       N.F. Ortiz, J.M. Preses, J.M. Simmie, J.A. Sonk, and P.J. Stimac; 
+       MultiWell-2019    Software Suite; University of Michigan, 
+       Ann Arbor, Michigan, USA, Apr 2019; 
+       http://clasp-research.engin.umich.edu/multiwell/.
+
+    b) J.R. Barker, Int. J. Chem. Kinetics, 33, 232-45 (2001)
+
+    c) J.R. Barker, Int. J. Chem. Kinetics, 41, 748-763 (2009)
+
+    d) F. Wang and D.P. Landau, Phys. Rev. Letters 86, 
+       2050-2053 (2001).
+
+    e) M. Basire, P. Parneix, and F. Calvo, J. Chem. Phys. 129,
+       081101 (2008).
+
+    f) T.L. Nguyen and J.R. Barker, J. Phys. Chem. A., 114,
+       3718-3730 (2010).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+A1        
+a1                                                                                                  
+harmonic and anharmonic freq wb97xd 6-31g(d,p)                                                      
+
+....................................................
+          2019/03/18   08:58:08.144   (Local Time)
+          year/mm/dd   hr:mi:second
+                 CPU :        0.004 s (  0.000 hr)
+....................................................
+  6 Vibrational Frequencies (cm-1)  
+  We; E = We*(v+1/2) +...; Wo: E = W0*v +...;  0<->1 fund.  
+  De: BDE for Separable Morse oscillator [0.0 if non-Morse]
+
+  No.     We         Wo      0-1_Fund.   De(cm-1)
+    1    204.190    119.666    104.643      238.3
+    2    343.750   -467.149  -1242.190       70.4
+    3    365.330    971.402   1495.227        0.0
+    4   1236.530   1255.176   1273.047        0.0
+    5   2756.450   2667.173   2651.676   114761.1
+    6   2776.800   2931.501   3002.675        0.0
+Anharmonicity Matrix (cm-1)
+         1         2         3         4         5         6
+  1   -15.023   -15.476   -32.615    -0.268   -59.464   -31.178
+  2   -15.476  -775.041   -17.192    -0.286   -22.024   -16.738
+  3   -32.615   -17.192   523.825     1.907   -33.934   246.327
+  4    -0.268    -0.286     1.907    17.871    -0.293     0.490
+  5   -59.464   -22.024   -33.934    -0.293   -15.497   -31.846
+  6   -31.178   -16.738   246.327     0.490   -31.846    71.174

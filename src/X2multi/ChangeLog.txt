@@ -1,0 +1,11 @@
+Wed Novembre 2006
+ v2.04  -Renamed some subroutines and gauss2multi directory.
+        -BUG FIX: the program stopped processing single-atom gaussian calculations.
+Fri 2, Febuary 2007
+ v2.08  -BUG FIX: 'gauss2multi: file not found' error occurred with gfortran compiler.
+        -BUG FIX: Pressure unit in thermo.dat did not agree with Punit in
+                  gauss2multi.cfg.
+                 
+                
+
+

@@ -1,0 +1,37 @@
+#!/bin/csh 
+
+set VERSION=2021.0
+
+echo ' '
+echo 'Testing parsctst'
+echo 'Be patient, it takes a few minutes to finish this test'
+echo ' '
+date
+
+echo 'Running  parsctst'
+mpirun -np 4 ../parsctst
+echo 'done'
+
+echo ' ' 
+echo ' NOTE: because of random number generation and the limited number'
+echo '       of stochastic trials in this test, the results may NOT'
+echo '       exactly match the reference file, although they should'
+echo '       be similar'
+echo ' '
+echo -n 'Would you like to compare the output versus the test output? [y/n]?'
+ set response=$<
+	if $response == 'y' then
+	else
+	echo 'Finished'
+	exit
+	endif
+
+echo ''
+echo 'Running diff'
+
+diff -s parsctst.out parsctst.out.test
+
+echo 'Finished' 
+
+
+

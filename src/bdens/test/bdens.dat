@@ -1,0 +1,31 @@
+H2O2
+Experimental data from Dorofeeva et al, J. Phys. Chem. Ref. Data 2003, 32, 879-901
+external rotors and 1D-hindered internal rotor (multiwell thermo database)
+
+5, 0, 0, 'WF'
+
+3598.7
+1387.5
+875.0
+3610.7
+1266.0
+lower
+-90.9
+-11.0     -10.
+-11.      -7.0      -10.
+-167.6    -11.5     -11.1     -90.2
+-3.0      -4.0      -2.0      -3.0      -3.0
+
+5         "CM-1"
+6       hrd     5.      1.      1       ! unsymmetrical hindered rotor
+ Vhrd2     1     0.     645.1     1036.97     657.53     50.89     2.524
+ Bhrd1     1     0.     39.37544     
+7	top     0.8556  10.0697  1    ! cm-1 symmetric top
+8	qro		1.0		1.0		1	! only for test
+9	vib		1000.0	1.0		1	! only for test
+10	box		1.0		0.0		1	! only for test
+
+5.  3000  4000  60000.  good man 50000. 
+
+'nochekstart'
+
