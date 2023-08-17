@@ -1,26 +1,49 @@
-# GNU FORTRAN-77 compiler 
-#FC = g77
-#FFLAGS =  -O -ffortran-bounds-check
-
-# GNU FORTRAN compiler
-#FC = gfortran
-#For de-bugging:
-#FFLAGS = -O -fno-automatic -fbounds-check -std=f95 -Wextra -Wall -pedantic
-#Standard:
-#FFLAGS = -O -fno-automatic -fbounds-check -fall-intrinsics
-
+# Compiler and flags for Linux/MacOS
 FC = gfortran
-FFLAGS = -O -fno-automatic -fbounds-check -fall-intrinsics
+FFLAGS = -O3 -fno-automatic -fbounds-check -fall-intrinsics 
+SOURCES = sctst.f datetime.f energyxyz.f energy.f lenstr.f calderixyz.f \
+          nvmax.f nvmaxxyz.f ran1.f shrlev.f uhrlev.f ghrlev.f eis.f \
+          ckderiv.f ckderivxyz.f convib.f READ_WXYZ.f rotlev.f krotlev.f  \
+          trialmax.f boxlev.f morlev.f rotunits.f crotlev.f gam.f \
+          alngam.f  omega.f calpn.f stoplev.f ucase.f
+OBJECTS = $(SOURCES:.f=.o)
+EXECUTABLE = sctst
 
-Osctst = sctst.o datetime.o energyxyz.o energy.o lenstr.o calderixyz.o \
-           nvmax.o nvmaxxyz.o ran1.o shrlev.o uhrlev.o ghrlev.o eis.o \
-           ckderiv.o ckderivxyz.o convib.o READ_WXYZ.o rotlev.o krotlev.o  \
-           trialmax.o boxlev.o morlev.o rotunits.o crotlev.o gam.o \
-           alngam.o  omega.o calpn.o stoplev.o ucase.o
+# Compiler and flags for Windows cross-compilation
+FC_WINDOWS = x86_64-w64-mingw32-gfortran
+FFLAGS_WINDOWS = -O3 -fno-automatic -fbounds-check -fall-intrinsics -static
+SOURCES_WINDOWS = $(SOURCES)
+OBJECTS_WINDOWS = $(SOURCES_WINDOWS:.f=.wo)
+EXECUTABLE_WINDOWS = $(EXECUTABLE).exe
 
-sctst:    $(Osctst)
-	$(FC) $(FFLAGS) -o sctst $(Osctst) ;
-	cp sctst ../../bin
+# Default target
+all: unix windows
+
+# Target for Unix
+unix: $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJECTS)
+	$(FC) $(FFLAGS) $(OBJECTS) -o $@
+	cp $(EXECUTABLE) ../../bin/
+
+# Target for Windows cross-compilation
+windows: FC = $(FC_WINDOWS)
+windows: FFLAGS = $(FFLAGS_WINDOWS)
+windows: LIBS = -static-libgcc -static-libgfortran
+windows: $(EXECUTABLE_WINDOWS)
+
+$(EXECUTABLE_WINDOWS): $(OBJECTS_WINDOWS)
+	$(FC) $(FFLAGS) $(OBJECTS_WINDOWS) -o $@ $(LIBS)
+	cp $(EXECUTABLE_WINDOWS) ../../bin/windows
+
+%.f: %.f
+	$(FC) $(FFLAGS) -c $< -o $@
+
+%.wo: %.f
+	$(FC_WINDOWS) $(FFLAGS_WINDOWS) -c $< -o $@
 
 clean:
-	rm -f *.o sctst ../../bin/sctst
+	rm -f *.f *.wo $(EXECUTABLE) $(EXECUTABLE_WINDOWS)
+	rm -f *.mod $(EXECUTABLE) $(EXECUTABLE_WINDOWS)
+	rm -f ../../bin/$(EXECUTABLE) ../../bin/windows/$(EXECUTABLE_WINDOWS)
+

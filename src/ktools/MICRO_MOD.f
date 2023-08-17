@@ -84,43 +84,49 @@ c%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       subroutine micro_rates
       use DECLARE_MOD				! use module DECLARE_MOD
       include 'DECLARE_INC.inc'		! include 'DECLARE_INC.inc'
-      integer jval, njmax
-      integer status
-      real*8  viblo
-      real*8  maxemax
-c      real*8  tmat(rcnt+ntts,etop)
-c      real*8  gmat(rcnt+ntts,etop)
-      character fname*80,namefile*80
+
+      ! Declare variable with explicit types
+      integer :: jval, njmax, status
+      real*8 :: viblo, maxemax
+      character :: fname*80, namefile*80
+
+      ! Format statements
  100  format(i7,2x,100(es15.4))
  200  format(3x,'veff',2x,100(es15.4))
-990   FORMAT ('allocation FAILED: gmat, tmat')
-991   FORMAT ('allocation FAILED: rpmat, minpmat,mingmat,umingmat...')
-992   FORMAT ('micro_rates: deallocated gmat and tmat',/)
-993   FORMAT ('micro_rates: deallocation FAILED: gmat and tmat',/)
+ 990  FORMAT ('allocation FAILED: gmat, tmat')
+ 991  FORMAT ('allocation FAILED: rpmat, minpmat,mingmat,umingmat...')
+ 992  FORMAT ('micro_rates: deallocated gmat and tmat',/)
+ 993  FORMAT ('micro_rates: deallocation FAILED: gmat and tmat',/)
 
-
+      ! Timestamps
       call sestamp('micro_rates',1)
 
+      ! Find jmax for system
       call find_jmax(lunit,etopuser,jtopuser,jtop,rcnt,ntts,pcnt,maxtemp
      $,vmax,delh,epsil,barr,delhf,maxj,maxemax,maxj3)
      
-      write(lunit,*) 'max energy for allocating arrays: ',int(maxemax)
+      write(lunit,*) 'max energy for allocating arrays: ', int(maxemax)
 
+      ! if maxj is larger than what the user defined then limit to user
+      ! defined otherwise use found maxj as njmax
       IF( maxj .ge. jtopuser ) then
         njmax = jtopuser + 1
         else
         njmax = maxj + 1
         end if
-      write(lunit,*) 'max J for allocating arrays: ',njmax
+      write(lunit,*) 'max J for allocating arrays: ', njmax
       write(lunit,*)
       
-c      
-c dynamic allocation of memory      ******** ALLOCATE ************
-c
+      ! find number of bins for system depending on max emax and bin
+      ! size
       nbinmax = nint( maxemax/de ) + 1
+
+      ! allocate tmat/gmat dynamically based on structures and number of
+      ! bins
       ALLOCATE( tmat(rcnt+ntts,nbinmax) , 
      &          gmat(rcnt+ntts,nbinmax) , STAT=status )
 
+      ! check if allocation succeded
       allocate_ok: IF ( status .NE. 0 ) THEN   
          WRITE (lunit,990)
          STOP 'terminated in micro_rates'
@@ -133,6 +139,7 @@ c     &          umingmat(njmax+1,nbinmax+1) ,
 c     &            kejmat(njmax+1,nbinmax+1) , 
 c     &           ukejmat(njmax+1,nbinmax+1) , STAT=status )
 
+      ! allocat matrixes to hold reactant DOS, SOS, kej, and unified variants
       ALLOCATE(    rpmat(maxj+1,nbinmax+1) , 
      &           minpmat(maxj+1,nbinmax+1) , 
      &           mingmat(maxj+1,nbinmax+1) , 
@@ -140,13 +147,13 @@ c     &           ukejmat(njmax+1,nbinmax+1) , STAT=status )
      &            kejmat(maxj+1,nbinmax+1) , 
      &           ukejmat(maxj+1,nbinmax+1) , STAT=status )
 
+      ! check if allocation succeded
       allocate2_ok: IF ( status .NE. 0 ) THEN   
          WRITE (lunit,991)
          STOP 'terminated in micro_rates'
       END IF allocate2_ok
       
-c       
-c do an initial run to generate the t(r,i) matrix
+      ! do an initial run to generate the t(r,i) matrix
       jval=0
       call veff(jval,vef)
       do i=1,rcnt+ntts
@@ -155,7 +162,8 @@ c do an initial run to generate the t(r,i) matrix
 
       manymins=.false.
 
-c run over all j values
+
+      !run over all j values
 
       write(*,*)'Calculating Microcanonical Rate Constants'
       do jval=0,maxj,dj

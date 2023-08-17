@@ -1,0 +1,344 @@
+HO+NO2 -> HONO2 ro-harmonic vib model UB971 enthalpies
+KCAL  MCC                ! Ekey, Sskey
+savefiles                ! Whatdo
+40000  10.               ! Emax Egrain 
+500     1                ! Jmax Jgrain 
+301  902  40000.         ! 1D double array parameters: Imax1, Isize, Emax2
+11                       ! Nt number of temperatures
+150.  175.  200.  225. 250. 275. 300. 325. 350. 400.  500.      ! Temperature list
+1  15  2                 ! no. of reactants, no. of of trial transition states, no. of products
+
+reac	HONO2d	-47.85  0.0
+HNO3
+a) NIST / JANAF 2003, Dorofeeva et al. J. Phys. Chem. Ref. Data 32 (2003) 879 
+b) (blank comment line)
+c) (blank comment line)
+1    1    1
+0.0  1
+11  'OBS'   'GHZ'
+1	vib	466.5391	0	1
+2	vib	591.2091	0	1
+3	vib	663.2936	0	1
+4	vib	775.8275	0	1
+5	vib	915.5479	0	1
+6	vib	1328.0248	0	1
+7	vib	1358.1378	0	1
+8	vib	1765.5981	0	1
+9	vib	3761.6776	0	1
+10	kro	13.0079	1	1   ! GHz HONO2 highest rot constant
+11	jro	8.6977	1	2   ! GHz HONO2 sqrt of lower two rot constants
+
+ctst  HO-NO2-22    -9.62    2.2    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) UB97-1/6-311++G**
+c) constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	148.5890	0	1	
+2	vib	227.0371	0	1	
+3	vib	408.2804	0	1	
+4	vib	700.2606	0	1	
+5	vib	748.9022	0	1	
+6	vib	1371.6184	0	1	
+7	vib	1845.0935	0	1	
+8	vib	3774.9754	0	1	
+9	kro	12.7578	1	1	   ! GHZ;  2D rotor
+10	jro	5.1909	1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-23    -7.43    2.3    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) UB97-1/6-311++G**
+c) constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	133.1402	0	1	
+2	vib	189.5178	0	1	
+3	vib	344.4728	0	1	
+4	vib	607.4156	0	1	
+5	vib	751.5415	0	1	
+6	vib	1372.0163	0	1	
+7	vib	1819.6802	0	1	
+8	vib	3768.0246	0	1	
+9	kro	12.7431	1	1	   ! GHZ;  2D rotor
+10	jro	4.8552	1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-24    -5.79    2.4    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) UB97-1/6-311++G**
+c) constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	122.1506	0	1	
+2	vib	158.8851	0	1	
+3	vib	291.8942	0	1	
+4	vib	528.8139	0	1	
+5	vib	753.9087	0	1	
+6	vib	1372.7108	0	1	
+7	vib	1798.3594	0	1	
+8	vib	3762.3828	0	1	
+9	kro	12.7353	1	1	   ! GHZ;  2D rotor
+10	jro	4.5506	1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-25    -4.54    2.5    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) UB97-1/6-311++G**
+c) constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	114.5201	0	1	
+2	vib	133.7315	0	1	
+3	vib	248.4672	0	1	
+4	vib	456.4391	0	1	
+5	vib	755.0440	0	1	
+6	vib	1373.4848	0	1	
+7	vib	1779.7100	0	1	
+8	vib	3757.8956	0	1	
+9	kro	12.7314	1	1	   ! GHZ;  2D rotor
+10	jro	4.2736	1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-26    -3.57    2.6    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) UB97-1/6-311++G**
+c) constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	105.7090	0	1	
+2	vib	112.2579	0	1	
+3	vib	211.7066	0	1	
+4	vib	394.6532	0	1	
+5	vib	757.1989	0	1	
+6	vib	1375.8932	0	1	
+7	vib	1764.7769	0	1	
+8	vib	3754.3526	0	1	
+9	kro	12.7320	1	1	   ! GHZ;  2D rotor
+10	jro	4.0218	1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-27    -2.81    2.7   0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) UB97-1/6-311++G**
+c) constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	92.7238	0	1	
+2	vib	98.3193	0	1	
+3	vib	181.9440	0	1	
+4	vib	333.2050	0	1	
+5	vib	758.4254	0	1	
+6	vib	1378.3685	0	1	
+7	vib	1752.1813	0	1	
+8	vib	3751.2832	0	1	
+9	kro	12.7374	1	1	   ! GHZ;  2D rotor
+10	jro	3.7918	1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-28    -2.20    2.8    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) UB97-1/6-311++G**
+c) constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	79.7346	0	1	
+2	vib	91.5128	0	1	
+3	vib	156.8938	0	1	
+4	vib	296.4188	0	1	
+5	vib	758.9290	0	1	
+6	vib	1380.6073	0	1	
+7	vib	1742.1004	0	1	
+8	vib	3749.0182	0	1	
+9	kro	12.7492	1	1	   ! GHZ;  2D rotor
+10	jro	3.5810	1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-29   -1.74    2.9    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) UB97-1/6-311++G**
+c) constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	64.7001	0	1	
+2	vib	84.7183	0	1	
+3	vib	136.7961	0	1	
+4	vib	250.2168	0	1	
+5	vib	760.5641	0	1	
+6	vib	1383.1136	0	1	
+7	vib	1733.9455	0	1	
+8	vib	3746.8889	0	1	
+9	kro	12.7779	1	1	   ! GHZ;  2D rotor
+10	jro	3.3876	1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-30    -1.38    3.0    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) UB97-1/6-311++G**
+c) constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	50.9534	0	1	
+2	vib	75.0141	0	1	
+3	vib	120.6991	0	1	
+4	vib	212.1455	0	1	
+5	vib	761.3885	0	1	
+6	vib	1385.5630	0	1	
+7	vib	1727.5705	0	1	
+8	vib	3745.3835	0	1	
+9	kro	12.8394	1	1	   ! GHZ;  2D rotor
+10	jro	3.2100	1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-31    -1.08    3.1    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) EXTRAPOLATED   UB97-1/6-311++G**
+c) EXTRAPOLATED switched w2 and w2  constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	69.25     0	1
+2	vib	46.56	0    1	
+3	vib	100.29	0	1	
+4	vib	185.96	0	1	
+5	vib	760.56	0	1	
+6	vib	1383.11	0	1	
+7	vib	1733.95	0	1	
+8	vib	3746.89	0	1	
+9	kro	12.84	1         1	   ! GHZ;  K rotor
+10	jro	3.06	1         2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-32    -0.87    3.2    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) EXTRAPOLATED   UB97-1/6-311++G**
+c) EXTRAPOLATED switched w2 and w2  constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	63.72     0	1	
+2	vib	39.05     0	1	
+3	vib	86.03	0	1	
+4	vib	160.30	0	1	
+5	vib	760.56	0	1	
+6	vib	1383.11	0	1	
+7	vib	1733.95	0	1	
+8	vib	3746.89	0	1	
+9	kro	12.84     1	1	   ! GHZ;  2D rotor
+10	jro	2.91      1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-33    -0.71    3.3    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) EXTRAPOLATED   UB97-1/6-311++G**
+c) EXTRAPOLATED switched w1 and w2  constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	58.64     0	1
+2	vib	32.76     0	1	
+3	vib	73.80	0	1	
+4	vib	138.18	0	1	
+5	vib	760.56	0	1	
+6	vib	1383.11	0	1	
+7	vib	1733.95	0	1	
+8	vib	3746.89	0	1	
+9	kro	12.84     1	1	   ! GHZ;  2D rotor
+10	jro	2.78      1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-34    -0.58    3.4    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) EXTRAPOLATED   UB97-1/6-311++G**
+c) EXTRAPOLATED switched w1 and w2  constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	53.96     0	1	
+2	vib	27.48     0	1	
+3	vib	63.31	0	1	
+4	vib	119.11	0	1	
+5	vib	760.56	0	1	
+6	vib	1383.11	0	1	
+7	vib	1733.95	0	1	
+8	vib	3746.89	0	1	
+9	kro	12.84     1	1	   ! GHZ;  2D rotor
+10	jro	2.65      1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-35    -0.48    3.5    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) EXTRAPOLATED   UB97-1/6-311++G**
+c) EXTRAPOLATED switched w1 and w2  constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	49.65     0	1
+2	vib	23.05     0	1
+3	vib	54.32	0	1	
+4	vib	102.67	0	1	
+5	vib	760.56	0	1	
+6	vib	1383.11	0	1	
+7	vib	1733.95	0	1	
+8	vib	3746.89	0	1	
+9	kro	12.84     1	1	   ! GHZ;  2D rotor
+10	jro	2.54      1	2	   ! GHZ;  2D rotor
+
+ctst  HO-NO2-45    -0.0    4.5    0.0
+HNO3
+a) Nguyen, Barker, et al. (2011+)
+b) EXTRAPOLATED   UB97-1/6-311++G**
+c) EXTRAPOLATED switched w1 and w2  constrained optimization (HO-NO2 distance constrained)
+1  1  1
+0.0   1
+10  'HAR'  'GHZ'
+1	vib	49.65     0	1
+2	vib	23.05     0	1
+3	vib	54.32	0	1	
+4	vib	102.67	0	1	
+5	vib	760.56	0	1	
+6	vib	1383.11	0	1	
+7	vib	1733.95	0	1	
+8	vib	3746.89	0	1	
+9	kro	12.84     1	1	   ! GHZ;  2D rotor
+10	jro	0.2       1	2	   ! GHZ;  2D rotor
+
+prod    OH________    0.0   0.0   !  37.11 kJ/mol
+OH
+a) NIST / JANAF 1998
+b) enthalpy from Ruscic et al., J. Phys. Chem. A, 2006, 110 (21), 6592-6601
+c) (blank comment line)
+1    1    5
+0.0      2
+139.7    2
+32403.   2
+68372.   2
+89420.   2
+2  'HAR'  'AMUA'
+1    vib    3737.76    -84.88    1
+2    jro       0.8914    1.0     2    !Ia
+
+prod    NO2_______    0.0   0.0  !  36.78 kJ/mol
+NO2
+a) NIST / JANAF 1998
+b) (blank comment line)
+c) (blank comment line)
+2    1    1
+0.0  2
+5  'HAR'  'AMUA'
+1    vib    1357.8    0    1
+2    vib     756.8    0    1
+3    vib    1665.5    0    1
+4    kro    2.1066    1    1    !Ia     
+5    jro    39.955    1    2    !Ib & Ic
+

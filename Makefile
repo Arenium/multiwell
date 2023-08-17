@@ -33,6 +33,36 @@ all:
 	cd ../;\
 	cp gauss2lamm.sh ../bin;
 
+windows: 
+	echo '';\
+	echo 'Multiwell and all of the helper applications will now be compiled for Windows';\
+	echo '';\
+	date;\
+	cd src/multiwell;\
+	make windows;\
+	cd ../densum;\
+	make windows;\
+	cd ../thermo;\
+	make windows;\
+	cd ../mominert;\
+	make windows;\
+	cd ../X2multi;\
+	make windows;\
+	cd ../bdens;\
+	make windows;\
+	cd ../ktools;\
+	make windows;\
+	cd ../sctst;\
+	make windows;\
+	cd ../parsctst;\
+	make windows;\
+	cd ../lamm;\
+	make windows;\
+	cd ../paradensum;\
+	make windows;\
+	cd ../;\
+	cp gauss2lamm.sh ../bin;
+
 clean:
 	cd src/multiwell;\
 	make clean;\

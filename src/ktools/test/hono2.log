@@ -36,11 +36,11 @@ Suggested Literature Citations:
 
 
 ktools: HO+NO2 -> HONO2 ro-harmonic vib model UB971 enthalpies run started.
-mar. 24th 2023    7:11:41:951 am
- run id: 2303240711
+jul. 20th 2023    8:46:46:420 pm
+ run id: 2307202046
 
  start check_input
-mar. 24th 2023    7:11:41:952 am
+jul. 20th 2023    8:46:46:420 pm
 
 
  # of r    # of ts     # of p
@@ -306,11 +306,11 @@ product #   2   5       0.000       0.000
 
 
  end check_input
-mar. 24th 2023    7:11:41:952 am
+jul. 20th 2023    8:46:46:421 pm
 
 
  start super_mol
-mar. 24th 2023    7:11:41:952 am
+jul. 20th 2023    8:46:46:421 pm
 
 
  molecular weights of r, ts & p
@@ -347,11 +347,11 @@ mar. 24th 2023    7:11:41:952 am
 
 
  end super_mol
-mar. 24th 2023    7:11:41:953 am
+jul. 20th 2023    8:46:46:421 pm
 
 
  start bsort
-mar. 24th 2023    7:11:41:953 am
+jul. 20th 2023    8:46:46:421 pm
 
 
  converting j-rotational constant into cm-1
@@ -422,11 +422,11 @@ mar. 24th 2023    7:11:41:953 am
   16     0.4283     0.0067     0.4216     0.4283
   18     8.0023     0.4219     7.5804     8.0023
  end bsort
-mar. 24th 2023    7:11:41:953 am
+jul. 20th 2023    8:46:46:421 pm
 
 
  start hsort
-mar. 24th 2023    7:11:41:953 am
+jul. 20th 2023    8:46:46:421 pm
 
 
  converting pe from kcal/mol to cm-1
@@ -453,11 +453,11 @@ ctst  16         -0.00         -0.00      16735.78         -0.00
 prod  17          0.00          0.00      16735.78          0.00
 prod  18          0.00          0.00      16735.78          0.00
  end hsort
-mar. 24th 2023    7:11:41:953 am
+jul. 20th 2023    8:46:46:421 pm
 
 
  start zpe_calc
-mar. 24th 2023    7:11:41:953 am
+jul. 20th 2023    8:46:46:422 pm
 
 
  # of structures:          18
@@ -486,11 +486,11 @@ mar. 24th 2023    7:11:41:953 am
   18    16735.7810     1890.0500    20658.6587
 
  end zpe_calc
-mar. 24th 2023    7:11:41:954 am
+jul. 20th 2023    8:46:46:422 pm
 
 
  start canon_rates
-mar. 24th 2023    7:11:41:954 am
+jul. 20th 2023    8:46:46:422 pm
 
 
 structure    #      T(K)          qele        qtrans          qvib          qrot          qhin          qtot         k(t)f         k(t)r
@@ -765,15 +765,15 @@ canonical rate constant data can be found in: hono2.canonical
 
 
  end canon_rates
-mar. 24th 2023    7:11:42:056 am
+jul. 20th 2023    8:46:46:463 pm
 
 
  start micro_rates
-mar. 24th 2023    7:11:42:056 am
+jul. 20th 2023    8:46:46:463 pm
 
 
  start find_jmax
-mar. 24th 2023    7:11:42:056 am
+jul. 20th 2023    8:46:46:463 pm
 
 
  For Emax:        40000
@@ -837,7 +837,7 @@ setting maxj to:          262
 
 
  end find_jmax
-mar. 24th 2023    7:11:42:056 am
+jul. 20th 2023    8:46:46:463 pm
 
 
  max energy for allocating arrays:        76879
@@ -871,7 +871,7 @@ for j:     0 vmax@  16735.78cm-1        4.5angstrom
 veff max is at point #    16         16735.78
 
  end veff
-mar. 24th 2023    7:11:42:057 am
+jul. 20th 2023    8:46:46:463 pm
 
 
 for j:     0 vmax@  16735.78cm-1        4.5angstrom
@@ -902,7 +902,7 @@ for j:     0 vmax@  16735.78cm-1        4.5angstrom
 veff max is at point #    16         16735.78
 
  end veff
-mar. 24th 2023    7:11:42:249 am
+jul. 20th 2023    8:46:46:513 pm
 
 
 for j:     1 vmax@  16735.79cm-1        4.5angstrom
@@ -933,7 +933,7 @@ for j:     1 vmax@  16735.79cm-1        4.5angstrom
 veff max is at point #    16         16735.79
 
  end veff
-mar. 24th 2023    7:11:42:266 am
+jul. 20th 2023    8:46:46:522 pm
 
 
 for j:     2 vmax@  16735.82cm-1        4.5angstrom
@@ -964,7 +964,7 @@ for j:     2 vmax@  16735.82cm-1        4.5angstrom
 veff max is at point #    16         16735.82
 
  end veff
-mar. 24th 2023    7:11:42:269 am
+jul. 20th 2023    8:46:46:523 pm
 
 
 for j:     3 vmax@  16735.86cm-1        4.5angstrom
@@ -995,7 +995,7 @@ for j:     3 vmax@  16735.86cm-1        4.5angstrom
 veff max is at point #    16         16735.86
 
  end veff
-mar. 24th 2023    7:11:42:270 am
+jul. 20th 2023    8:46:46:523 pm
 
 
 for j:     4 vmax@  16735.91cm-1        4.5angstrom
@@ -1026,7 +1026,7 @@ for j:     4 vmax@  16735.91cm-1        4.5angstrom
 veff max is at point #    16         16735.91
 
  end veff
-mar. 24th 2023    7:11:42:272 am
+jul. 20th 2023    8:46:46:524 pm
 
 
 for j:     5 vmax@  16735.98cm-1        4.5angstrom
@@ -1057,7 +1057,7 @@ for j:     5 vmax@  16735.98cm-1        4.5angstrom
 veff max is at point #    16         16735.98
 
  end veff
-mar. 24th 2023    7:11:42:274 am
+jul. 20th 2023    8:46:46:525 pm
 
 
 for j:     6 vmax@  16736.06cm-1        4.5angstrom
@@ -1088,7 +1088,7 @@ for j:     6 vmax@  16736.06cm-1        4.5angstrom
 veff max is at point #    16         16736.06
 
  end veff
-mar. 24th 2023    7:11:42:276 am
+jul. 20th 2023    8:46:46:526 pm
 
 
 for j:     7 vmax@  16736.15cm-1        4.5angstrom
@@ -1119,7 +1119,7 @@ for j:     7 vmax@  16736.15cm-1        4.5angstrom
 veff max is at point #    16         16736.15
 
  end veff
-mar. 24th 2023    7:11:42:278 am
+jul. 20th 2023    8:46:46:526 pm
 
 
 for j:     8 vmax@  16736.26cm-1        4.5angstrom
@@ -1150,7 +1150,7 @@ for j:     8 vmax@  16736.26cm-1        4.5angstrom
 veff max is at point #    16         16736.26
 
  end veff
-mar. 24th 2023    7:11:42:281 am
+jul. 20th 2023    8:46:46:527 pm
 
 
 for j:     9 vmax@  16736.38cm-1        4.5angstrom
@@ -1181,7 +1181,7 @@ for j:     9 vmax@  16736.38cm-1        4.5angstrom
 veff max is at point #    16         16736.38
 
  end veff
-mar. 24th 2023    7:11:42:283 am
+jul. 20th 2023    8:46:46:528 pm
 
 
 for j:    10 vmax@  16736.51cm-1        4.5angstrom
@@ -1212,7 +1212,7 @@ for j:    10 vmax@  16736.51cm-1        4.5angstrom
 veff max is at point #    16         16736.51
 
  end veff
-mar. 24th 2023    7:11:42:286 am
+jul. 20th 2023    8:46:46:529 pm
 
 
 for j:    11 vmax@  16736.66cm-1        4.5angstrom
@@ -1243,7 +1243,7 @@ for j:    11 vmax@  16736.66cm-1        4.5angstrom
 veff max is at point #    16         16736.66
 
  end veff
-mar. 24th 2023    7:11:42:288 am
+jul. 20th 2023    8:46:46:530 pm
 
 
 for j:    12 vmax@  16736.82cm-1        4.5angstrom
@@ -1274,7 +1274,7 @@ for j:    12 vmax@  16736.82cm-1        4.5angstrom
 veff max is at point #    16         16736.82
 
  end veff
-mar. 24th 2023    7:11:42:291 am
+jul. 20th 2023    8:46:46:531 pm
 
 
 for j:    13 vmax@  16737.00cm-1        4.5angstrom
@@ -1305,7 +1305,7 @@ for j:    13 vmax@  16737.00cm-1        4.5angstrom
 veff max is at point #    16         16737.00
 
  end veff
-mar. 24th 2023    7:11:42:294 am
+jul. 20th 2023    8:46:46:532 pm
 
 
 for j:    14 vmax@  16737.18cm-1        4.5angstrom
@@ -1336,7 +1336,7 @@ for j:    14 vmax@  16737.18cm-1        4.5angstrom
 veff max is at point #    16         16737.18
 
  end veff
-mar. 24th 2023    7:11:42:297 am
+jul. 20th 2023    8:46:46:533 pm
 
 
 for j:    15 vmax@  16737.38cm-1        4.5angstrom
@@ -1367,7 +1367,7 @@ for j:    15 vmax@  16737.38cm-1        4.5angstrom
 veff max is at point #    16         16737.38
 
  end veff
-mar. 24th 2023    7:11:42:301 am
+jul. 20th 2023    8:46:46:534 pm
 
 
 for j:    16 vmax@  16737.60cm-1        4.5angstrom
@@ -1398,7 +1398,7 @@ for j:    16 vmax@  16737.60cm-1        4.5angstrom
 veff max is at point #    16         16737.60
 
  end veff
-mar. 24th 2023    7:11:42:304 am
+jul. 20th 2023    8:46:46:535 pm
 
 
 for j:    17 vmax@  16737.82cm-1        4.5angstrom
@@ -1429,7 +1429,7 @@ for j:    17 vmax@  16737.82cm-1        4.5angstrom
 veff max is at point #    16         16737.82
 
  end veff
-mar. 24th 2023    7:11:42:307 am
+jul. 20th 2023    8:46:46:536 pm
 
 
 for j:    18 vmax@  16738.06cm-1        4.5angstrom
@@ -1460,7 +1460,7 @@ for j:    18 vmax@  16738.06cm-1        4.5angstrom
 veff max is at point #    16         16738.06
 
  end veff
-mar. 24th 2023    7:11:42:311 am
+jul. 20th 2023    8:46:46:537 pm
 
 
 for j:    19 vmax@  16738.32cm-1        4.5angstrom
@@ -1491,7 +1491,7 @@ for j:    19 vmax@  16738.32cm-1        4.5angstrom
 veff max is at point #    16         16738.32
 
  end veff
-mar. 24th 2023    7:11:42:314 am
+jul. 20th 2023    8:46:46:538 pm
 
 
 for j:    20 vmax@  16738.58cm-1        4.5angstrom
@@ -1522,7 +1522,7 @@ for j:    20 vmax@  16738.58cm-1        4.5angstrom
 veff max is at point #    16         16738.58
 
  end veff
-mar. 24th 2023    7:11:42:318 am
+jul. 20th 2023    8:46:46:540 pm
 
 
 for j:    21 vmax@  16738.86cm-1        4.5angstrom
@@ -1553,7 +1553,7 @@ for j:    21 vmax@  16738.86cm-1        4.5angstrom
 veff max is at point #    16         16738.86
 
  end veff
-mar. 24th 2023    7:11:42:322 am
+jul. 20th 2023    8:46:46:541 pm
 
 
 for j:    22 vmax@  16739.16cm-1        4.5angstrom
@@ -1584,7 +1584,7 @@ for j:    22 vmax@  16739.16cm-1        4.5angstrom
 veff max is at point #    16         16739.16
 
  end veff
-mar. 24th 2023    7:11:42:326 am
+jul. 20th 2023    8:46:46:542 pm
 
 
 for j:    23 vmax@  16739.46cm-1        4.5angstrom
@@ -1615,7 +1615,7 @@ for j:    23 vmax@  16739.46cm-1        4.5angstrom
 veff max is at point #    16         16739.46
 
  end veff
-mar. 24th 2023    7:11:42:330 am
+jul. 20th 2023    8:46:46:543 pm
 
 
 for j:    24 vmax@  16739.78cm-1        4.5angstrom
@@ -1646,7 +1646,7 @@ for j:    24 vmax@  16739.78cm-1        4.5angstrom
 veff max is at point #    16         16739.78
 
  end veff
-mar. 24th 2023    7:11:42:334 am
+jul. 20th 2023    8:46:46:545 pm
 
 
 for j:    25 vmax@  16740.12cm-1        4.5angstrom
@@ -1677,7 +1677,7 @@ for j:    25 vmax@  16740.12cm-1        4.5angstrom
 veff max is at point #    16         16740.12
 
  end veff
-mar. 24th 2023    7:11:42:338 am
+jul. 20th 2023    8:46:46:546 pm
 
 
 for j:    26 vmax@  16740.46cm-1        4.5angstrom
@@ -1708,7 +1708,7 @@ for j:    26 vmax@  16740.46cm-1        4.5angstrom
 veff max is at point #    16         16740.46
 
  end veff
-mar. 24th 2023    7:11:42:342 am
+jul. 20th 2023    8:46:46:548 pm
 
 
 for j:    27 vmax@  16740.82cm-1        4.5angstrom
@@ -1739,7 +1739,7 @@ for j:    27 vmax@  16740.82cm-1        4.5angstrom
 veff max is at point #    16         16740.82
 
  end veff
-mar. 24th 2023    7:11:42:346 am
+jul. 20th 2023    8:46:46:549 pm
 
 
 for j:    28 vmax@  16741.20cm-1        4.5angstrom
@@ -1770,7 +1770,7 @@ for j:    28 vmax@  16741.20cm-1        4.5angstrom
 veff max is at point #    16         16741.20
 
  end veff
-mar. 24th 2023    7:11:42:351 am
+jul. 20th 2023    8:46:46:551 pm
 
 
 for j:    29 vmax@  16741.58cm-1        4.5angstrom
@@ -1801,7 +1801,7 @@ for j:    29 vmax@  16741.58cm-1        4.5angstrom
 veff max is at point #    16         16741.58
 
  end veff
-mar. 24th 2023    7:11:42:355 am
+jul. 20th 2023    8:46:46:552 pm
 
 
 for j:    30 vmax@  16741.99cm-1        4.5angstrom
@@ -1832,7 +1832,7 @@ for j:    30 vmax@  16741.99cm-1        4.5angstrom
 veff max is at point #    16         16741.99
 
  end veff
-mar. 24th 2023    7:11:42:360 am
+jul. 20th 2023    8:46:46:554 pm
 
 
 for j:    31 vmax@  16742.40cm-1        4.5angstrom
@@ -1863,7 +1863,7 @@ for j:    31 vmax@  16742.40cm-1        4.5angstrom
 veff max is at point #    16         16742.40
 
  end veff
-mar. 24th 2023    7:11:42:365 am
+jul. 20th 2023    8:46:46:556 pm
 
 
 for j:    32 vmax@  16742.83cm-1        4.5angstrom
@@ -1894,7 +1894,7 @@ for j:    32 vmax@  16742.83cm-1        4.5angstrom
 veff max is at point #    16         16742.83
 
  end veff
-mar. 24th 2023    7:11:42:370 am
+jul. 20th 2023    8:46:46:557 pm
 
 
 for j:    33 vmax@  16743.27cm-1        4.5angstrom
@@ -1925,7 +1925,7 @@ for j:    33 vmax@  16743.27cm-1        4.5angstrom
 veff max is at point #    16         16743.27
 
  end veff
-mar. 24th 2023    7:11:42:375 am
+jul. 20th 2023    8:46:46:559 pm
 
 
 for j:    34 vmax@  16743.72cm-1        4.5angstrom
@@ -1956,7 +1956,7 @@ for j:    34 vmax@  16743.72cm-1        4.5angstrom
 veff max is at point #    16         16743.72
 
  end veff
-mar. 24th 2023    7:11:42:380 am
+jul. 20th 2023    8:46:46:561 pm
 
 
 for j:    35 vmax@  16744.19cm-1        4.5angstrom
@@ -1987,7 +1987,7 @@ for j:    35 vmax@  16744.19cm-1        4.5angstrom
 veff max is at point #    16         16744.19
 
  end veff
-mar. 24th 2023    7:11:42:386 am
+jul. 20th 2023    8:46:46:562 pm
 
 
 for j:    36 vmax@  16744.67cm-1        4.5angstrom
@@ -2018,7 +2018,7 @@ for j:    36 vmax@  16744.67cm-1        4.5angstrom
 veff max is at point #    16         16744.67
 
  end veff
-mar. 24th 2023    7:11:42:391 am
+jul. 20th 2023    8:46:46:564 pm
 
 
 for j:    37 vmax@  16745.16cm-1        4.5angstrom
@@ -2049,7 +2049,7 @@ for j:    37 vmax@  16745.16cm-1        4.5angstrom
 veff max is at point #    16         16745.16
 
  end veff
-mar. 24th 2023    7:11:42:397 am
+jul. 20th 2023    8:46:46:566 pm
 
 
 for j:    38 vmax@  16745.67cm-1        4.5angstrom
@@ -2080,7 +2080,7 @@ for j:    38 vmax@  16745.67cm-1        4.5angstrom
 veff max is at point #    16         16745.67
 
  end veff
-mar. 24th 2023    7:11:42:402 am
+jul. 20th 2023    8:46:46:568 pm
 
 
 for j:    39 vmax@  16746.19cm-1        4.5angstrom
@@ -2111,7 +2111,7 @@ for j:    39 vmax@  16746.19cm-1        4.5angstrom
 veff max is at point #    16         16746.19
 
  end veff
-mar. 24th 2023    7:11:42:408 am
+jul. 20th 2023    8:46:46:570 pm
 
 
 for j:    40 vmax@  16746.72cm-1        4.5angstrom
@@ -2142,7 +2142,7 @@ for j:    40 vmax@  16746.72cm-1        4.5angstrom
 veff max is at point #    16         16746.72
 
  end veff
-mar. 24th 2023    7:11:42:414 am
+jul. 20th 2023    8:46:46:572 pm
 
 
 for j:    41 vmax@  16747.27cm-1        4.5angstrom
@@ -2173,7 +2173,7 @@ for j:    41 vmax@  16747.27cm-1        4.5angstrom
 veff max is at point #    16         16747.27
 
  end veff
-mar. 24th 2023    7:11:42:420 am
+jul. 20th 2023    8:46:46:574 pm
 
 
 for j:    42 vmax@  16747.83cm-1        4.5angstrom
@@ -2204,7 +2204,7 @@ for j:    42 vmax@  16747.83cm-1        4.5angstrom
 veff max is at point #    16         16747.83
 
  end veff
-mar. 24th 2023    7:11:42:426 am
+jul. 20th 2023    8:46:46:576 pm
 
 
 for j:    43 vmax@  16748.40cm-1        4.5angstrom
@@ -2235,7 +2235,7 @@ for j:    43 vmax@  16748.40cm-1        4.5angstrom
 veff max is at point #    16         16748.40
 
  end veff
-mar. 24th 2023    7:11:42:432 am
+jul. 20th 2023    8:46:46:578 pm
 
 
 for j:    44 vmax@  16748.99cm-1        4.5angstrom
@@ -2266,7 +2266,7 @@ for j:    44 vmax@  16748.99cm-1        4.5angstrom
 veff max is at point #    16         16748.99
 
  end veff
-mar. 24th 2023    7:11:42:439 am
+jul. 20th 2023    8:46:46:580 pm
 
 
 for j:    45 vmax@  16749.59cm-1        4.5angstrom
@@ -2297,7 +2297,7 @@ for j:    45 vmax@  16749.59cm-1        4.5angstrom
 veff max is at point #    16         16749.59
 
  end veff
-mar. 24th 2023    7:11:42:445 am
+jul. 20th 2023    8:46:46:582 pm
 
 
 for j:    46 vmax@  16751.07cm-1        3.5angstrom
@@ -2328,7 +2328,7 @@ for j:    46 vmax@  16751.07cm-1        3.5angstrom
 veff max is at point #    15         16751.07
 
  end veff
-mar. 24th 2023    7:11:42:451 am
+jul. 20th 2023    8:46:46:584 pm
 
 
 for j:    47 vmax@  16759.04cm-1        3.5angstrom
@@ -2359,7 +2359,7 @@ for j:    47 vmax@  16759.04cm-1        3.5angstrom
 veff max is at point #    15         16759.04
 
  end veff
-mar. 24th 2023    7:11:42:458 am
+jul. 20th 2023    8:46:46:587 pm
 
 
 for j:    48 vmax@  16767.17cm-1        3.5angstrom
@@ -2390,7 +2390,7 @@ for j:    48 vmax@  16767.17cm-1        3.5angstrom
 veff max is at point #    15         16767.17
 
  end veff
-mar. 24th 2023    7:11:42:465 am
+jul. 20th 2023    8:46:46:589 pm
 
 
 for j:    49 vmax@  16775.48cm-1        3.5angstrom
@@ -2421,7 +2421,7 @@ for j:    49 vmax@  16775.48cm-1        3.5angstrom
 veff max is at point #    15         16775.48
 
  end veff
-mar. 24th 2023    7:11:42:471 am
+jul. 20th 2023    8:46:46:592 pm
 
 
 for j:    50 vmax@  16783.95cm-1        3.5angstrom
@@ -2452,7 +2452,7 @@ for j:    50 vmax@  16783.95cm-1        3.5angstrom
 veff max is at point #    15         16783.95
 
  end veff
-mar. 24th 2023    7:11:42:479 am
+jul. 20th 2023    8:46:46:594 pm
 
 
 for j:    51 vmax@  16792.59cm-1        3.5angstrom
@@ -2483,7 +2483,7 @@ for j:    51 vmax@  16792.59cm-1        3.5angstrom
 veff max is at point #    15         16792.59
 
  end veff
-mar. 24th 2023    7:11:42:486 am
+jul. 20th 2023    8:46:46:596 pm
 
 
 for j:    52 vmax@  16801.40cm-1        3.5angstrom
@@ -2514,7 +2514,7 @@ for j:    52 vmax@  16801.40cm-1        3.5angstrom
 veff max is at point #    15         16801.40
 
  end veff
-mar. 24th 2023    7:11:42:493 am
+jul. 20th 2023    8:46:46:599 pm
 
 
 for j:    53 vmax@  16810.38cm-1        3.5angstrom
@@ -2545,7 +2545,7 @@ for j:    53 vmax@  16810.38cm-1        3.5angstrom
 veff max is at point #    15         16810.38
 
  end veff
-mar. 24th 2023    7:11:42:500 am
+jul. 20th 2023    8:46:46:601 pm
 
 
 for j:    54 vmax@  16819.53cm-1        3.5angstrom
@@ -2576,7 +2576,7 @@ for j:    54 vmax@  16819.53cm-1        3.5angstrom
 veff max is at point #    15         16819.53
 
  end veff
-mar. 24th 2023    7:11:42:508 am
+jul. 20th 2023    8:46:46:604 pm
 
 
 for j:    55 vmax@  16828.85cm-1        3.5angstrom
@@ -2607,7 +2607,7 @@ for j:    55 vmax@  16828.85cm-1        3.5angstrom
 veff max is at point #    15         16828.85
 
  end veff
-mar. 24th 2023    7:11:42:515 am
+jul. 20th 2023    8:46:46:607 pm
 
 
 for j:    56 vmax@  16838.34cm-1        3.5angstrom
@@ -2638,7 +2638,7 @@ for j:    56 vmax@  16838.34cm-1        3.5angstrom
 veff max is at point #    15         16838.34
 
  end veff
-mar. 24th 2023    7:11:42:523 am
+jul. 20th 2023    8:46:46:609 pm
 
 
 for j:    57 vmax@  16848.00cm-1        3.5angstrom
@@ -2669,7 +2669,7 @@ for j:    57 vmax@  16848.00cm-1        3.5angstrom
 veff max is at point #    15         16848.00
 
  end veff
-mar. 24th 2023    7:11:42:531 am
+jul. 20th 2023    8:46:46:612 pm
 
 
 for j:    58 vmax@  16857.83cm-1        3.5angstrom
@@ -2700,7 +2700,7 @@ for j:    58 vmax@  16857.83cm-1        3.5angstrom
 veff max is at point #    15         16857.83
 
  end veff
-mar. 24th 2023    7:11:42:539 am
+jul. 20th 2023    8:46:46:615 pm
 
 
 for j:    59 vmax@  16867.83cm-1        3.5angstrom
@@ -2731,7 +2731,7 @@ for j:    59 vmax@  16867.83cm-1        3.5angstrom
 veff max is at point #    15         16867.83
 
  end veff
-mar. 24th 2023    7:11:42:547 am
+jul. 20th 2023    8:46:46:617 pm
 
 
 for j:    60 vmax@  16877.99cm-1        3.5angstrom
@@ -2762,7 +2762,7 @@ for j:    60 vmax@  16877.99cm-1        3.5angstrom
 veff max is at point #    15         16877.99
 
  end veff
-mar. 24th 2023    7:11:42:555 am
+jul. 20th 2023    8:46:46:620 pm
 
 
 for j:    61 vmax@  16888.33cm-1        3.5angstrom
@@ -2793,7 +2793,7 @@ for j:    61 vmax@  16888.33cm-1        3.5angstrom
 veff max is at point #    15         16888.33
 
  end veff
-mar. 24th 2023    7:11:42:563 am
+jul. 20th 2023    8:46:46:623 pm
 
 
 for j:    62 vmax@  16898.84cm-1        3.5angstrom
@@ -2824,7 +2824,7 @@ for j:    62 vmax@  16898.84cm-1        3.5angstrom
 veff max is at point #    15         16898.84
 
  end veff
-mar. 24th 2023    7:11:42:571 am
+jul. 20th 2023    8:46:46:626 pm
 
 
 for j:    63 vmax@  16909.51cm-1        3.5angstrom
@@ -2855,7 +2855,7 @@ for j:    63 vmax@  16909.51cm-1        3.5angstrom
 veff max is at point #    15         16909.51
 
  end veff
-mar. 24th 2023    7:11:42:579 am
+jul. 20th 2023    8:46:46:629 pm
 
 
 for j:    64 vmax@  16920.36cm-1        3.5angstrom
@@ -2886,7 +2886,7 @@ for j:    64 vmax@  16920.36cm-1        3.5angstrom
 veff max is at point #    15         16920.36
 
  end veff
-mar. 24th 2023    7:11:42:588 am
+jul. 20th 2023    8:46:46:632 pm
 
 
 for j:    65 vmax@  16931.37cm-1        3.5angstrom
@@ -2917,7 +2917,7 @@ for j:    65 vmax@  16931.37cm-1        3.5angstrom
 veff max is at point #    15         16931.37
 
  end veff
-mar. 24th 2023    7:11:42:597 am
+jul. 20th 2023    8:46:46:634 pm
 
 
 for j:    66 vmax@  16942.55cm-1        3.5angstrom
@@ -2948,7 +2948,7 @@ for j:    66 vmax@  16942.55cm-1        3.5angstrom
 veff max is at point #    15         16942.55
 
  end veff
-mar. 24th 2023    7:11:42:605 am
+jul. 20th 2023    8:46:46:637 pm
 
 
 for j:    67 vmax@  16953.91cm-1        3.5angstrom
@@ -2979,7 +2979,7 @@ for j:    67 vmax@  16953.91cm-1        3.5angstrom
 veff max is at point #    15         16953.91
 
  end veff
-mar. 24th 2023    7:11:42:614 am
+jul. 20th 2023    8:46:46:640 pm
 
 
 for j:    68 vmax@  16965.43cm-1        3.5angstrom
@@ -3010,7 +3010,7 @@ for j:    68 vmax@  16965.43cm-1        3.5angstrom
 veff max is at point #    15         16965.43
 
  end veff
-mar. 24th 2023    7:11:42:623 am
+jul. 20th 2023    8:46:46:643 pm
 
 
 for j:    69 vmax@  16977.12cm-1        3.5angstrom
@@ -3041,7 +3041,7 @@ for j:    69 vmax@  16977.12cm-1        3.5angstrom
 veff max is at point #    15         16977.12
 
  end veff
-mar. 24th 2023    7:11:42:632 am
+jul. 20th 2023    8:46:46:646 pm
 
 
 for j:    70 vmax@  16988.98cm-1        3.5angstrom
@@ -3072,7 +3072,7 @@ for j:    70 vmax@  16988.98cm-1        3.5angstrom
 veff max is at point #    15         16988.98
 
  end veff
-mar. 24th 2023    7:11:42:641 am
+jul. 20th 2023    8:46:46:650 pm
 
 
 for j:    71 vmax@  17001.01cm-1        3.5angstrom
@@ -3103,7 +3103,7 @@ for j:    71 vmax@  17001.01cm-1        3.5angstrom
 veff max is at point #    15         17001.01
 
  end veff
-mar. 24th 2023    7:11:42:650 am
+jul. 20th 2023    8:46:46:653 pm
 
 
 for j:    72 vmax@  17013.21cm-1        3.5angstrom
@@ -3134,7 +3134,7 @@ for j:    72 vmax@  17013.21cm-1        3.5angstrom
 veff max is at point #    15         17013.21
 
  end veff
-mar. 24th 2023    7:11:42:660 am
+jul. 20th 2023    8:46:46:656 pm
 
 
 for j:    73 vmax@  17025.58cm-1        3.5angstrom
@@ -3165,7 +3165,7 @@ for j:    73 vmax@  17025.58cm-1        3.5angstrom
 veff max is at point #    15         17025.58
 
  end veff
-mar. 24th 2023    7:11:42:669 am
+jul. 20th 2023    8:46:46:659 pm
 
 
 for j:    74 vmax@  17038.12cm-1        3.5angstrom
@@ -3196,7 +3196,7 @@ for j:    74 vmax@  17038.12cm-1        3.5angstrom
 veff max is at point #    15         17038.12
 
  end veff
-mar. 24th 2023    7:11:42:679 am
+jul. 20th 2023    8:46:46:662 pm
 
 
 for j:    75 vmax@  17050.83cm-1        3.5angstrom
@@ -3227,7 +3227,7 @@ for j:    75 vmax@  17050.83cm-1        3.5angstrom
 veff max is at point #    15         17050.83
 
  end veff
-mar. 24th 2023    7:11:42:688 am
+jul. 20th 2023    8:46:46:665 pm
 
 
 for j:    76 vmax@  17063.71cm-1        3.5angstrom
@@ -3258,7 +3258,7 @@ for j:    76 vmax@  17063.71cm-1        3.5angstrom
 veff max is at point #    15         17063.71
 
  end veff
-mar. 24th 2023    7:11:42:698 am
+jul. 20th 2023    8:46:46:668 pm
 
 
 for j:    77 vmax@  17076.76cm-1        3.5angstrom
@@ -3289,7 +3289,7 @@ for j:    77 vmax@  17076.76cm-1        3.5angstrom
 veff max is at point #    15         17076.76
 
  end veff
-mar. 24th 2023    7:11:42:708 am
+jul. 20th 2023    8:46:46:672 pm
 
 
 for j:    78 vmax@  17089.98cm-1        3.5angstrom
@@ -3320,7 +3320,7 @@ for j:    78 vmax@  17089.98cm-1        3.5angstrom
 veff max is at point #    15         17089.98
 
  end veff
-mar. 24th 2023    7:11:42:718 am
+jul. 20th 2023    8:46:46:675 pm
 
 
 for j:    79 vmax@  17103.36cm-1        3.5angstrom
@@ -3351,7 +3351,7 @@ for j:    79 vmax@  17103.36cm-1        3.5angstrom
 veff max is at point #    15         17103.36
 
  end veff
-mar. 24th 2023    7:11:42:728 am
+jul. 20th 2023    8:46:46:678 pm
 
 
 for j:    80 vmax@  17116.92cm-1        3.5angstrom
@@ -3382,7 +3382,7 @@ for j:    80 vmax@  17116.92cm-1        3.5angstrom
 veff max is at point #    15         17116.92
 
  end veff
-mar. 24th 2023    7:11:42:738 am
+jul. 20th 2023    8:46:46:682 pm
 
 
 for j:    81 vmax@  17130.64cm-1        3.5angstrom
@@ -3413,7 +3413,7 @@ for j:    81 vmax@  17130.64cm-1        3.5angstrom
 veff max is at point #    15         17130.64
 
  end veff
-mar. 24th 2023    7:11:42:748 am
+jul. 20th 2023    8:46:46:685 pm
 
 
 for j:    82 vmax@  17144.54cm-1        3.5angstrom
@@ -3444,7 +3444,7 @@ for j:    82 vmax@  17144.54cm-1        3.5angstrom
 veff max is at point #    15         17144.54
 
  end veff
-mar. 24th 2023    7:11:42:759 am
+jul. 20th 2023    8:46:46:689 pm
 
 
 for j:    83 vmax@  17158.60cm-1        3.5angstrom
@@ -3475,7 +3475,7 @@ for j:    83 vmax@  17158.60cm-1        3.5angstrom
 veff max is at point #    15         17158.60
 
  end veff
-mar. 24th 2023    7:11:42:769 am
+jul. 20th 2023    8:46:46:692 pm
 
 
 for j:    84 vmax@  17172.84cm-1        3.5angstrom
@@ -3506,7 +3506,7 @@ for j:    84 vmax@  17172.84cm-1        3.5angstrom
 veff max is at point #    15         17172.84
 
  end veff
-mar. 24th 2023    7:11:42:780 am
+jul. 20th 2023    8:46:46:695 pm
 
 
 for j:    85 vmax@  17187.24cm-1        3.5angstrom
@@ -3537,7 +3537,7 @@ for j:    85 vmax@  17187.24cm-1        3.5angstrom
 veff max is at point #    15         17187.24
 
  end veff
-mar. 24th 2023    7:11:42:791 am
+jul. 20th 2023    8:46:46:699 pm
 
 
 for j:    86 vmax@  17201.81cm-1        3.5angstrom
@@ -3568,7 +3568,7 @@ for j:    86 vmax@  17201.81cm-1        3.5angstrom
 veff max is at point #    15         17201.81
 
  end veff
-mar. 24th 2023    7:11:42:801 am
+jul. 20th 2023    8:46:46:703 pm
 
 
 for j:    87 vmax@  17216.56cm-1        3.5angstrom
@@ -3599,7 +3599,7 @@ for j:    87 vmax@  17216.56cm-1        3.5angstrom
 veff max is at point #    15         17216.56
 
  end veff
-mar. 24th 2023    7:11:42:812 am
+jul. 20th 2023    8:46:46:706 pm
 
 
 for j:    88 vmax@  17231.47cm-1        3.5angstrom
@@ -3630,7 +3630,7 @@ for j:    88 vmax@  17231.47cm-1        3.5angstrom
 veff max is at point #    15         17231.47
 
  end veff
-mar. 24th 2023    7:11:42:823 am
+jul. 20th 2023    8:46:46:710 pm
 
 
 for j:    89 vmax@  17246.55cm-1        3.5angstrom
@@ -3661,7 +3661,7 @@ for j:    89 vmax@  17246.55cm-1        3.5angstrom
 veff max is at point #    15         17246.55
 
  end veff
-mar. 24th 2023    7:11:42:835 am
+jul. 20th 2023    8:46:46:713 pm
 
 
 for j:    90 vmax@  17261.80cm-1        3.5angstrom
@@ -3692,7 +3692,7 @@ for j:    90 vmax@  17261.80cm-1        3.5angstrom
 veff max is at point #    15         17261.80
 
  end veff
-mar. 24th 2023    7:11:42:846 am
+jul. 20th 2023    8:46:46:717 pm
 
 
 for j:    91 vmax@  17277.22cm-1        3.5angstrom
@@ -3723,7 +3723,7 @@ for j:    91 vmax@  17277.22cm-1        3.5angstrom
 veff max is at point #    15         17277.22
 
  end veff
-mar. 24th 2023    7:11:42:857 am
+jul. 20th 2023    8:46:46:721 pm
 
 
 for j:    92 vmax@  17292.81cm-1        3.5angstrom
@@ -3754,7 +3754,7 @@ for j:    92 vmax@  17292.81cm-1        3.5angstrom
 veff max is at point #    15         17292.81
 
  end veff
-mar. 24th 2023    7:11:42:869 am
+jul. 20th 2023    8:46:46:725 pm
 
 
 for j:    93 vmax@  17308.57cm-1        3.5angstrom
@@ -3785,7 +3785,7 @@ for j:    93 vmax@  17308.57cm-1        3.5angstrom
 veff max is at point #    15         17308.57
 
  end veff
-mar. 24th 2023    7:11:42:880 am
+jul. 20th 2023    8:46:46:728 pm
 
 
 for j:    94 vmax@  17324.50cm-1        3.5angstrom
@@ -3816,7 +3816,7 @@ for j:    94 vmax@  17324.50cm-1        3.5angstrom
 veff max is at point #    15         17324.50
 
  end veff
-mar. 24th 2023    7:11:42:892 am
+jul. 20th 2023    8:46:46:732 pm
 
 
 for j:    95 vmax@  17340.59cm-1        3.5angstrom
@@ -3847,7 +3847,7 @@ for j:    95 vmax@  17340.59cm-1        3.5angstrom
 veff max is at point #    15         17340.59
 
  end veff
-mar. 24th 2023    7:11:42:904 am
+jul. 20th 2023    8:46:46:736 pm
 
 
 for j:    96 vmax@  17356.86cm-1        3.5angstrom
@@ -3878,7 +3878,7 @@ for j:    96 vmax@  17356.86cm-1        3.5angstrom
 veff max is at point #    15         17356.86
 
  end veff
-mar. 24th 2023    7:11:42:916 am
+jul. 20th 2023    8:46:46:740 pm
 
 
 for j:    97 vmax@  17373.30cm-1        3.5angstrom
@@ -3909,7 +3909,7 @@ for j:    97 vmax@  17373.30cm-1        3.5angstrom
 veff max is at point #    15         17373.30
 
  end veff
-mar. 24th 2023    7:11:42:928 am
+jul. 20th 2023    8:46:46:744 pm
 
 
 for j:    98 vmax@  17390.53cm-1        3.4angstrom
@@ -3940,7 +3940,7 @@ for j:    98 vmax@  17390.53cm-1        3.4angstrom
 veff max is at point #    14         17390.53
 
  end veff
-mar. 24th 2023    7:11:42:940 am
+jul. 20th 2023    8:46:46:748 pm
 
 
 for j:    99 vmax@  17408.03cm-1        3.4angstrom
@@ -3971,7 +3971,7 @@ for j:    99 vmax@  17408.03cm-1        3.4angstrom
 veff max is at point #    14         17408.03
 
  end veff
-mar. 24th 2023    7:11:42:952 am
+jul. 20th 2023    8:46:46:752 pm
 
 
 for j:   100 vmax@  17425.71cm-1        3.4angstrom
@@ -4002,7 +4002,7 @@ for j:   100 vmax@  17425.71cm-1        3.4angstrom
 veff max is at point #    14         17425.71
 
  end veff
-mar. 24th 2023    7:11:42:964 am
+jul. 20th 2023    8:46:46:756 pm
 
 
 for j:   101 vmax@  17443.56cm-1        3.4angstrom
@@ -4033,7 +4033,7 @@ for j:   101 vmax@  17443.56cm-1        3.4angstrom
 veff max is at point #    14         17443.56
 
  end veff
-mar. 24th 2023    7:11:42:977 am
+jul. 20th 2023    8:46:46:760 pm
 
 
 for j:   102 vmax@  17461.68cm-1        3.3angstrom
@@ -4064,7 +4064,7 @@ for j:   102 vmax@  17461.68cm-1        3.3angstrom
 veff max is at point #    13         17461.68
 
  end veff
-mar. 24th 2023    7:11:42:989 am
+jul. 20th 2023    8:46:46:764 pm
 
 
 for j:   103 vmax@  17480.79cm-1        3.3angstrom
@@ -4095,7 +4095,7 @@ for j:   103 vmax@  17480.79cm-1        3.3angstrom
 veff max is at point #    13         17480.79
 
  end veff
-mar. 24th 2023    7:11:43:002 am
+jul. 20th 2023    8:46:46:768 pm
 
 
 for j:   104 vmax@  17500.08cm-1        3.3angstrom
@@ -4126,7 +4126,7 @@ for j:   104 vmax@  17500.08cm-1        3.3angstrom
 veff max is at point #    13         17500.08
 
  end veff
-mar. 24th 2023    7:11:43:015 am
+jul. 20th 2023    8:46:46:772 pm
 
 
 for j:   105 vmax@  17519.55cm-1        3.3angstrom
@@ -4157,7 +4157,7 @@ for j:   105 vmax@  17519.55cm-1        3.3angstrom
 veff max is at point #    13         17519.55
 
  end veff
-mar. 24th 2023    7:11:43:027 am
+jul. 20th 2023    8:46:46:776 pm
 
 
 for j:   106 vmax@  17539.21cm-1        3.3angstrom
@@ -4188,7 +4188,7 @@ for j:   106 vmax@  17539.21cm-1        3.3angstrom
 veff max is at point #    13         17539.21
 
  end veff
-mar. 24th 2023    7:11:43:040 am
+jul. 20th 2023    8:46:46:781 pm
 
 
 for j:   107 vmax@  17559.05cm-1        3.3angstrom
@@ -4219,7 +4219,7 @@ for j:   107 vmax@  17559.05cm-1        3.3angstrom
 veff max is at point #    13         17559.05
 
  end veff
-mar. 24th 2023    7:11:43:053 am
+jul. 20th 2023    8:46:46:785 pm
 
 
 for j:   108 vmax@  17579.08cm-1        3.3angstrom
@@ -4250,7 +4250,7 @@ for j:   108 vmax@  17579.08cm-1        3.3angstrom
 veff max is at point #    13         17579.08
 
  end veff
-mar. 24th 2023    7:11:43:066 am
+jul. 20th 2023    8:46:46:789 pm
 
 
 for j:   109 vmax@  17599.30cm-1        3.3angstrom
@@ -4281,7 +4281,7 @@ for j:   109 vmax@  17599.30cm-1        3.3angstrom
 veff max is at point #    13         17599.30
 
  end veff
-mar. 24th 2023    7:11:43:079 am
+jul. 20th 2023    8:46:46:794 pm
 
 
 for j:   110 vmax@  17619.70cm-1        3.3angstrom
@@ -4312,7 +4312,7 @@ for j:   110 vmax@  17619.70cm-1        3.3angstrom
 veff max is at point #    13         17619.70
 
  end veff
-mar. 24th 2023    7:11:43:093 am
+jul. 20th 2023    8:46:46:798 pm
 
 
 for j:   111 vmax@  17640.28cm-1        3.3angstrom
@@ -4343,7 +4343,7 @@ for j:   111 vmax@  17640.28cm-1        3.3angstrom
 veff max is at point #    13         17640.28
 
  end veff
-mar. 24th 2023    7:11:43:106 am
+jul. 20th 2023    8:46:46:802 pm
 
 
 for j:   112 vmax@  17661.06cm-1        3.3angstrom
@@ -4374,7 +4374,7 @@ for j:   112 vmax@  17661.06cm-1        3.3angstrom
 veff max is at point #    13         17661.06
 
  end veff
-mar. 24th 2023    7:11:43:119 am
+jul. 20th 2023    8:46:46:807 pm
 
 
 for j:   113 vmax@  17682.01cm-1        3.3angstrom
@@ -4405,7 +4405,7 @@ for j:   113 vmax@  17682.01cm-1        3.3angstrom
 veff max is at point #    13         17682.01
 
  end veff
-mar. 24th 2023    7:11:43:133 am
+jul. 20th 2023    8:46:46:811 pm
 
 
 for j:   114 vmax@  17704.04cm-1        3.2angstrom
@@ -4436,7 +4436,7 @@ for j:   114 vmax@  17704.04cm-1        3.2angstrom
 veff max is at point #    12         17704.04
 
  end veff
-mar. 24th 2023    7:11:43:147 am
+jul. 20th 2023    8:46:46:815 pm
 
 
 for j:   115 vmax@  17726.37cm-1        3.2angstrom
@@ -4467,7 +4467,7 @@ for j:   115 vmax@  17726.37cm-1        3.2angstrom
 veff max is at point #    12         17726.37
 
  end veff
-mar. 24th 2023    7:11:43:161 am
+jul. 20th 2023    8:46:46:820 pm
 
 
 for j:   116 vmax@  17748.89cm-1        3.2angstrom
@@ -4498,7 +4498,7 @@ for j:   116 vmax@  17748.89cm-1        3.2angstrom
 veff max is at point #    12         17748.89
 
  end veff
-mar. 24th 2023    7:11:43:175 am
+jul. 20th 2023    8:46:46:824 pm
 
 
 for j:   117 vmax@  17771.60cm-1        3.2angstrom
@@ -4529,7 +4529,7 @@ for j:   117 vmax@  17771.60cm-1        3.2angstrom
 veff max is at point #    12         17771.60
 
  end veff
-mar. 24th 2023    7:11:43:189 am
+jul. 20th 2023    8:46:46:828 pm
 
 
 for j:   118 vmax@  17794.51cm-1        3.2angstrom
@@ -4560,7 +4560,7 @@ for j:   118 vmax@  17794.51cm-1        3.2angstrom
 veff max is at point #    12         17794.51
 
  end veff
-mar. 24th 2023    7:11:43:203 am
+jul. 20th 2023    8:46:46:833 pm
 
 
 for j:   119 vmax@  17817.61cm-1        3.2angstrom
@@ -4591,7 +4591,7 @@ for j:   119 vmax@  17817.61cm-1        3.2angstrom
 veff max is at point #    12         17817.61
 
  end veff
-mar. 24th 2023    7:11:43:217 am
+jul. 20th 2023    8:46:46:837 pm
 
 
 for j:   120 vmax@  17840.91cm-1        3.2angstrom
@@ -4622,7 +4622,7 @@ for j:   120 vmax@  17840.91cm-1        3.2angstrom
 veff max is at point #    12         17840.91
 
  end veff
-mar. 24th 2023    7:11:43:232 am
+jul. 20th 2023    8:46:46:842 pm
 
 
 for j:   121 vmax@  17864.81cm-1        3.1angstrom
@@ -4653,7 +4653,7 @@ for j:   121 vmax@  17864.81cm-1        3.1angstrom
 veff max is at point #    11         17864.81
 
  end veff
-mar. 24th 2023    7:11:43:246 am
+jul. 20th 2023    8:46:46:846 pm
 
 
 for j:   122 vmax@  17889.72cm-1        3.1angstrom
@@ -4684,7 +4684,7 @@ for j:   122 vmax@  17889.72cm-1        3.1angstrom
 veff max is at point #    11         17889.72
 
  end veff
-mar. 24th 2023    7:11:43:261 am
+jul. 20th 2023    8:46:46:850 pm
 
 
 for j:   123 vmax@  17914.83cm-1        3.1angstrom
@@ -4715,7 +4715,7 @@ for j:   123 vmax@  17914.83cm-1        3.1angstrom
 veff max is at point #    11         17914.83
 
  end veff
-mar. 24th 2023    7:11:43:275 am
+jul. 20th 2023    8:46:46:855 pm
 
 
 for j:   124 vmax@  17940.14cm-1        3.1angstrom
@@ -4746,7 +4746,7 @@ for j:   124 vmax@  17940.14cm-1        3.1angstrom
 veff max is at point #    11         17940.14
 
  end veff
-mar. 24th 2023    7:11:43:290 am
+jul. 20th 2023    8:46:46:859 pm
 
 
 for j:   125 vmax@  17965.66cm-1        3.1angstrom
@@ -4777,7 +4777,7 @@ for j:   125 vmax@  17965.66cm-1        3.1angstrom
 veff max is at point #    11         17965.66
 
  end veff
-mar. 24th 2023    7:11:43:304 am
+jul. 20th 2023    8:46:46:864 pm
 
 
 for j:   126 vmax@  17991.38cm-1        3.1angstrom
@@ -4808,7 +4808,7 @@ for j:   126 vmax@  17991.38cm-1        3.1angstrom
 veff max is at point #    11         17991.38
 
  end veff
-mar. 24th 2023    7:11:43:319 am
+jul. 20th 2023    8:46:46:869 pm
 
 
 for j:   127 vmax@  18017.31cm-1        3.1angstrom
@@ -4839,7 +4839,7 @@ for j:   127 vmax@  18017.31cm-1        3.1angstrom
 veff max is at point #    11         18017.31
 
  end veff
-mar. 24th 2023    7:11:43:334 am
+jul. 20th 2023    8:46:46:873 pm
 
 
 for j:   128 vmax@  18043.44cm-1        3.1angstrom
@@ -4870,7 +4870,7 @@ for j:   128 vmax@  18043.44cm-1        3.1angstrom
 veff max is at point #    11         18043.44
 
  end veff
-mar. 24th 2023    7:11:43:349 am
+jul. 20th 2023    8:46:46:878 pm
 
 
 for j:   129 vmax@  18069.77cm-1        3.1angstrom
@@ -4901,7 +4901,7 @@ for j:   129 vmax@  18069.77cm-1        3.1angstrom
 veff max is at point #    11         18069.77
 
  end veff
-mar. 24th 2023    7:11:43:364 am
+jul. 20th 2023    8:46:46:883 pm
 
 
 for j:   130 vmax@  18096.31cm-1        3.1angstrom
@@ -4932,7 +4932,7 @@ for j:   130 vmax@  18096.31cm-1        3.1angstrom
 veff max is at point #    11         18096.31
 
  end veff
-mar. 24th 2023    7:11:43:380 am
+jul. 20th 2023    8:46:46:887 pm
 
 
 for j:   131 vmax@  18123.05cm-1        3.1angstrom
@@ -4963,7 +4963,7 @@ for j:   131 vmax@  18123.05cm-1        3.1angstrom
 veff max is at point #    11         18123.05
 
  end veff
-mar. 24th 2023    7:11:43:395 am
+jul. 20th 2023    8:46:46:892 pm
 
 
 for j:   132 vmax@  18150.00cm-1        3.1angstrom
@@ -4994,7 +4994,7 @@ for j:   132 vmax@  18150.00cm-1        3.1angstrom
 veff max is at point #    11         18150.00
 
  end veff
-mar. 24th 2023    7:11:43:410 am
+jul. 20th 2023    8:46:46:897 pm
 
 
 for j:   133 vmax@  18177.15cm-1        3.1angstrom
@@ -5025,7 +5025,7 @@ for j:   133 vmax@  18177.15cm-1        3.1angstrom
 veff max is at point #    11         18177.15
 
  end veff
-mar. 24th 2023    7:11:43:426 am
+jul. 20th 2023    8:46:46:902 pm
 
 
 for j:   134 vmax@  18204.50cm-1        3.1angstrom
@@ -5056,7 +5056,7 @@ for j:   134 vmax@  18204.50cm-1        3.1angstrom
 veff max is at point #    11         18204.50
 
  end veff
-mar. 24th 2023    7:11:43:442 am
+jul. 20th 2023    8:46:46:909 pm
 
 
 for j:   135 vmax@  18232.06cm-1        3.1angstrom
@@ -5087,7 +5087,7 @@ for j:   135 vmax@  18232.06cm-1        3.1angstrom
 veff max is at point #    11         18232.06
 
  end veff
-mar. 24th 2023    7:11:43:457 am
+jul. 20th 2023    8:46:46:914 pm
 
 
 for j:   136 vmax@  18259.83cm-1        3.1angstrom
@@ -5118,7 +5118,7 @@ for j:   136 vmax@  18259.83cm-1        3.1angstrom
 veff max is at point #    11         18259.83
 
  end veff
-mar. 24th 2023    7:11:43:473 am
+jul. 20th 2023    8:46:46:919 pm
 
 
 for j:   137 vmax@  18287.79cm-1        3.1angstrom
@@ -5149,7 +5149,7 @@ for j:   137 vmax@  18287.79cm-1        3.1angstrom
 veff max is at point #    11         18287.79
 
  end veff
-mar. 24th 2023    7:11:43:489 am
+jul. 20th 2023    8:46:46:924 pm
 
 
 for j:   138 vmax@  18315.96cm-1        3.1angstrom
@@ -5180,7 +5180,7 @@ for j:   138 vmax@  18315.96cm-1        3.1angstrom
 veff max is at point #    11         18315.96
 
  end veff
-mar. 24th 2023    7:11:43:505 am
+jul. 20th 2023    8:46:46:929 pm
 
 
 for j:   139 vmax@  18344.34cm-1        3.1angstrom
@@ -5211,7 +5211,7 @@ for j:   139 vmax@  18344.34cm-1        3.1angstrom
 veff max is at point #    11         18344.34
 
  end veff
-mar. 24th 2023    7:11:43:521 am
+jul. 20th 2023    8:46:46:935 pm
 
 
 for j:   140 vmax@  18372.92cm-1        3.1angstrom
@@ -5242,7 +5242,7 @@ for j:   140 vmax@  18372.92cm-1        3.1angstrom
 veff max is at point #    11         18372.92
 
  end veff
-mar. 24th 2023    7:11:43:537 am
+jul. 20th 2023    8:46:46:940 pm
 
 
 for j:   141 vmax@  18401.70cm-1        3.1angstrom
@@ -5273,7 +5273,7 @@ for j:   141 vmax@  18401.70cm-1        3.1angstrom
 veff max is at point #    11         18401.70
 
  end veff
-mar. 24th 2023    7:11:43:553 am
+jul. 20th 2023    8:46:46:945 pm
 
 
 for j:   142 vmax@  18430.69cm-1        3.1angstrom
@@ -5304,7 +5304,7 @@ for j:   142 vmax@  18430.69cm-1        3.1angstrom
 veff max is at point #    11         18430.69
 
  end veff
-mar. 24th 2023    7:11:43:570 am
+jul. 20th 2023    8:46:46:951 pm
 
 
 for j:   143 vmax@  18459.88cm-1        3.1angstrom
@@ -5335,7 +5335,7 @@ for j:   143 vmax@  18459.88cm-1        3.1angstrom
 veff max is at point #    11         18459.88
 
  end veff
-mar. 24th 2023    7:11:43:586 am
+jul. 20th 2023    8:46:46:956 pm
 
 
 for j:   144 vmax@  18489.28cm-1        3.1angstrom
@@ -5366,7 +5366,7 @@ for j:   144 vmax@  18489.28cm-1        3.1angstrom
 veff max is at point #    11         18489.28
 
  end veff
-mar. 24th 2023    7:11:43:603 am
+jul. 20th 2023    8:46:46:962 pm
 
 
 for j:   145 vmax@  18519.88cm-1        3.0angstrom
@@ -5397,7 +5397,7 @@ for j:   145 vmax@  18519.88cm-1        3.0angstrom
 veff max is at point #    10         18519.88
 
  end veff
-mar. 24th 2023    7:11:43:620 am
+jul. 20th 2023    8:46:46:967 pm
 
 
 for j:   146 vmax@  18552.37cm-1        2.9angstrom
@@ -5428,7 +5428,7 @@ for j:   146 vmax@  18552.37cm-1        2.9angstrom
 veff max is at point #     9         18552.37
 
  end veff
-mar. 24th 2023    7:11:43:636 am
+jul. 20th 2023    8:46:46:973 pm
 
 
 for j:   147 vmax@  18585.60cm-1        2.9angstrom
@@ -5459,7 +5459,7 @@ for j:   147 vmax@  18585.60cm-1        2.9angstrom
 veff max is at point #     9         18585.60
 
  end veff
-mar. 24th 2023    7:11:43:653 am
+jul. 20th 2023    8:46:46:978 pm
 
 
 for j:   148 vmax@  18619.04cm-1        2.9angstrom
@@ -5490,7 +5490,7 @@ for j:   148 vmax@  18619.04cm-1        2.9angstrom
 veff max is at point #     9         18619.04
 
  end veff
-mar. 24th 2023    7:11:43:670 am
+jul. 20th 2023    8:46:46:984 pm
 
 
 for j:   149 vmax@  18652.72cm-1        2.9angstrom
@@ -5521,7 +5521,7 @@ for j:   149 vmax@  18652.72cm-1        2.9angstrom
 veff max is at point #     9         18652.72
 
  end veff
-mar. 24th 2023    7:11:43:687 am
+jul. 20th 2023    8:46:46:989 pm
 
 
 for j:   150 vmax@  18686.62cm-1        2.9angstrom
@@ -5552,7 +5552,7 @@ for j:   150 vmax@  18686.62cm-1        2.9angstrom
 veff max is at point #     9         18686.62
 
  end veff
-mar. 24th 2023    7:11:43:704 am
+jul. 20th 2023    8:46:46:995 pm
 
 
 for j:   151 vmax@  18720.74cm-1        2.9angstrom
@@ -5583,7 +5583,7 @@ for j:   151 vmax@  18720.74cm-1        2.9angstrom
 veff max is at point #     9         18720.74
 
  end veff
-mar. 24th 2023    7:11:43:721 am
+jul. 20th 2023    8:46:47:000 pm
 
 
 for j:   152 vmax@  18755.09cm-1        2.9angstrom
@@ -5614,7 +5614,7 @@ for j:   152 vmax@  18755.09cm-1        2.9angstrom
 veff max is at point #     9         18755.09
 
  end veff
-mar. 24th 2023    7:11:43:739 am
+jul. 20th 2023    8:46:47:006 pm
 
 
 for j:   153 vmax@  18789.67cm-1        2.9angstrom
@@ -5645,7 +5645,7 @@ for j:   153 vmax@  18789.67cm-1        2.9angstrom
 veff max is at point #     9         18789.67
 
  end veff
-mar. 24th 2023    7:11:43:756 am
+jul. 20th 2023    8:46:47:012 pm
 
 
 for j:   154 vmax@  18824.47cm-1        2.9angstrom
@@ -5676,7 +5676,7 @@ for j:   154 vmax@  18824.47cm-1        2.9angstrom
 veff max is at point #     9         18824.47
 
  end veff
-mar. 24th 2023    7:11:43:773 am
+jul. 20th 2023    8:46:47:017 pm
 
 
 for j:   155 vmax@  18859.50cm-1        2.9angstrom
@@ -5707,7 +5707,7 @@ for j:   155 vmax@  18859.50cm-1        2.9angstrom
 veff max is at point #     9         18859.50
 
  end veff
-mar. 24th 2023    7:11:43:791 am
+jul. 20th 2023    8:46:47:023 pm
 
 
 for j:   156 vmax@  18894.76cm-1        2.9angstrom
@@ -5738,7 +5738,7 @@ for j:   156 vmax@  18894.76cm-1        2.9angstrom
 veff max is at point #     9         18894.76
 
  end veff
-mar. 24th 2023    7:11:43:809 am
+jul. 20th 2023    8:46:47:029 pm
 
 
 for j:   157 vmax@  18930.24cm-1        2.9angstrom
@@ -5769,7 +5769,7 @@ for j:   157 vmax@  18930.24cm-1        2.9angstrom
 veff max is at point #     9         18930.24
 
  end veff
-mar. 24th 2023    7:11:43:827 am
+jul. 20th 2023    8:46:47:035 pm
 
 
 for j:   158 vmax@  18967.13cm-1        2.8angstrom
@@ -5800,7 +5800,7 @@ for j:   158 vmax@  18967.13cm-1        2.8angstrom
 veff max is at point #     8         18967.13
 
  end veff
-mar. 24th 2023    7:11:43:844 am
+jul. 20th 2023    8:46:47:041 pm
 
 
 for j:   159 vmax@  19005.11cm-1        2.8angstrom
@@ -5831,7 +5831,7 @@ for j:   159 vmax@  19005.11cm-1        2.8angstrom
 veff max is at point #     8         19005.11
 
  end veff
-mar. 24th 2023    7:11:43:862 am
+jul. 20th 2023    8:46:47:047 pm
 
 
 for j:   160 vmax@  19043.33cm-1        2.8angstrom
@@ -5862,7 +5862,7 @@ for j:   160 vmax@  19043.33cm-1        2.8angstrom
 veff max is at point #     8         19043.33
 
  end veff
-mar. 24th 2023    7:11:43:880 am
+jul. 20th 2023    8:46:47:052 pm
 
 
 for j:   161 vmax@  19081.80cm-1        2.8angstrom
@@ -5893,7 +5893,7 @@ for j:   161 vmax@  19081.80cm-1        2.8angstrom
 veff max is at point #     8         19081.80
 
  end veff
-mar. 24th 2023    7:11:43:898 am
+jul. 20th 2023    8:46:47:058 pm
 
 
 for j:   162 vmax@  19120.50cm-1        2.8angstrom
@@ -5924,7 +5924,7 @@ for j:   162 vmax@  19120.50cm-1        2.8angstrom
 veff max is at point #     8         19120.50
 
  end veff
-mar. 24th 2023    7:11:43:917 am
+jul. 20th 2023    8:46:47:064 pm
 
 
 for j:   163 vmax@  19159.44cm-1        2.8angstrom
@@ -5955,7 +5955,7 @@ for j:   163 vmax@  19159.44cm-1        2.8angstrom
 veff max is at point #     8         19159.44
 
  end veff
-mar. 24th 2023    7:11:43:935 am
+jul. 20th 2023    8:46:47:070 pm
 
 
 for j:   164 vmax@  19198.62cm-1        2.8angstrom
@@ -5986,7 +5986,7 @@ for j:   164 vmax@  19198.62cm-1        2.8angstrom
 veff max is at point #     8         19198.62
 
  end veff
-mar. 24th 2023    7:11:43:953 am
+jul. 20th 2023    8:46:47:076 pm
 
 
 for j:   165 vmax@  19238.04cm-1        2.8angstrom
@@ -6017,7 +6017,7 @@ for j:   165 vmax@  19238.04cm-1        2.8angstrom
 veff max is at point #     8         19238.04
 
  end veff
-mar. 24th 2023    7:11:43:972 am
+jul. 20th 2023    8:46:47:082 pm
 
 
 for j:   166 vmax@  19277.69cm-1        2.8angstrom
@@ -6048,7 +6048,7 @@ for j:   166 vmax@  19277.69cm-1        2.8angstrom
 veff max is at point #     8         19277.69
 
  end veff
-mar. 24th 2023    7:11:43:990 am
+jul. 20th 2023    8:46:47:088 pm
 
 
 for j:   167 vmax@  19317.59cm-1        2.8angstrom
@@ -6079,7 +6079,7 @@ for j:   167 vmax@  19317.59cm-1        2.8angstrom
 veff max is at point #     8         19317.59
 
  end veff
-mar. 24th 2023    7:11:44:009 am
+jul. 20th 2023    8:46:47:095 pm
 
 
 for j:   168 vmax@  19357.72cm-1        2.8angstrom
@@ -6110,7 +6110,7 @@ for j:   168 vmax@  19357.72cm-1        2.8angstrom
 veff max is at point #     8         19357.72
 
  end veff
-mar. 24th 2023    7:11:44:028 am
+jul. 20th 2023    8:46:47:101 pm
 
 
 for j:   169 vmax@  19398.10cm-1        2.8angstrom
@@ -6141,7 +6141,7 @@ for j:   169 vmax@  19398.10cm-1        2.8angstrom
 veff max is at point #     8         19398.10
 
  end veff
-mar. 24th 2023    7:11:44:046 am
+jul. 20th 2023    8:46:47:107 pm
 
 
 for j:   170 vmax@  19438.71cm-1        2.8angstrom
@@ -6172,7 +6172,7 @@ for j:   170 vmax@  19438.71cm-1        2.8angstrom
 veff max is at point #     8         19438.71
 
  end veff
-mar. 24th 2023    7:11:44:065 am
+jul. 20th 2023    8:46:47:113 pm
 
 
 for j:   171 vmax@  19479.56cm-1        2.8angstrom
@@ -6203,7 +6203,7 @@ for j:   171 vmax@  19479.56cm-1        2.8angstrom
 veff max is at point #     8         19479.56
 
  end veff
-mar. 24th 2023    7:11:44:084 am
+jul. 20th 2023    8:46:47:119 pm
 
 
 for j:   172 vmax@  19520.65cm-1        2.8angstrom
@@ -6234,7 +6234,7 @@ for j:   172 vmax@  19520.65cm-1        2.8angstrom
 veff max is at point #     8         19520.65
 
  end veff
-mar. 24th 2023    7:11:44:103 am
+jul. 20th 2023    8:46:47:125 pm
 
 
 for j:   173 vmax@  19561.98cm-1        2.8angstrom
@@ -6265,7 +6265,7 @@ for j:   173 vmax@  19561.98cm-1        2.8angstrom
 veff max is at point #     8         19561.98
 
  end veff
-mar. 24th 2023    7:11:44:122 am
+jul. 20th 2023    8:46:47:132 pm
 
 
 for j:   174 vmax@  19604.31cm-1        2.7angstrom
@@ -6296,7 +6296,7 @@ for j:   174 vmax@  19604.31cm-1        2.7angstrom
 veff max is at point #     7         19604.31
 
  end veff
-mar. 24th 2023    7:11:44:142 am
+jul. 20th 2023    8:46:47:138 pm
 
 
 for j:   175 vmax@  19648.58cm-1        2.7angstrom
@@ -6327,7 +6327,7 @@ for j:   175 vmax@  19648.58cm-1        2.7angstrom
 veff max is at point #     7         19648.58
 
  end veff
-mar. 24th 2023    7:11:44:161 am
+jul. 20th 2023    8:46:47:144 pm
 
 
 for j:   176 vmax@  19693.10cm-1        2.7angstrom
@@ -6358,7 +6358,7 @@ for j:   176 vmax@  19693.10cm-1        2.7angstrom
 veff max is at point #     7         19693.10
 
  end veff
-mar. 24th 2023    7:11:44:180 am
+jul. 20th 2023    8:46:47:151 pm
 
 
 for j:   177 vmax@  19737.87cm-1        2.7angstrom
@@ -6389,7 +6389,7 @@ for j:   177 vmax@  19737.87cm-1        2.7angstrom
 veff max is at point #     7         19737.87
 
  end veff
-mar. 24th 2023    7:11:44:200 am
+jul. 20th 2023    8:46:47:157 pm
 
 
 for j:   178 vmax@  19782.90cm-1        2.7angstrom
@@ -6420,7 +6420,7 @@ for j:   178 vmax@  19782.90cm-1        2.7angstrom
 veff max is at point #     7         19782.90
 
  end veff
-mar. 24th 2023    7:11:44:219 am
+jul. 20th 2023    8:46:47:163 pm
 
 
 for j:   179 vmax@  19828.18cm-1        2.7angstrom
@@ -6451,7 +6451,7 @@ for j:   179 vmax@  19828.18cm-1        2.7angstrom
 veff max is at point #     7         19828.18
 
  end veff
-mar. 24th 2023    7:11:44:239 am
+jul. 20th 2023    8:46:47:170 pm
 
 
 for j:   180 vmax@  19873.71cm-1        2.7angstrom
@@ -6482,7 +6482,7 @@ for j:   180 vmax@  19873.71cm-1        2.7angstrom
 veff max is at point #     7         19873.71
 
  end veff
-mar. 24th 2023    7:11:44:259 am
+jul. 20th 2023    8:46:47:176 pm
 
 
 for j:   181 vmax@  19919.50cm-1        2.7angstrom
@@ -6513,7 +6513,7 @@ for j:   181 vmax@  19919.50cm-1        2.7angstrom
 veff max is at point #     7         19919.50
 
  end veff
-mar. 24th 2023    7:11:44:279 am
+jul. 20th 2023    8:46:47:183 pm
 
 
 for j:   182 vmax@  19965.54cm-1        2.7angstrom
@@ -6544,7 +6544,7 @@ for j:   182 vmax@  19965.54cm-1        2.7angstrom
 veff max is at point #     7         19965.54
 
  end veff
-mar. 24th 2023    7:11:44:298 am
+jul. 20th 2023    8:46:47:189 pm
 
 
 for j:   183 vmax@  20011.83cm-1        2.7angstrom
@@ -6575,7 +6575,7 @@ for j:   183 vmax@  20011.83cm-1        2.7angstrom
 veff max is at point #     7         20011.83
 
  end veff
-mar. 24th 2023    7:11:44:319 am
+jul. 20th 2023    8:46:47:196 pm
 
 
 for j:   184 vmax@  20058.38cm-1        2.7angstrom
@@ -6606,7 +6606,7 @@ for j:   184 vmax@  20058.38cm-1        2.7angstrom
 veff max is at point #     7         20058.38
 
  end veff
-mar. 24th 2023    7:11:44:339 am
+jul. 20th 2023    8:46:47:202 pm
 
 
 for j:   185 vmax@  20105.17cm-1        2.7angstrom
@@ -6637,7 +6637,7 @@ for j:   185 vmax@  20105.17cm-1        2.7angstrom
 veff max is at point #     7         20105.17
 
  end veff
-mar. 24th 2023    7:11:44:359 am
+jul. 20th 2023    8:46:47:209 pm
 
 
 for j:   186 vmax@  20153.26cm-1        2.6angstrom
@@ -6668,7 +6668,7 @@ for j:   186 vmax@  20153.26cm-1        2.6angstrom
 veff max is at point #     6         20153.26
 
  end veff
-mar. 24th 2023    7:11:44:379 am
+jul. 20th 2023    8:46:47:216 pm
 
 
 for j:   187 vmax@  20203.43cm-1        2.6angstrom
@@ -6699,7 +6699,7 @@ for j:   187 vmax@  20203.43cm-1        2.6angstrom
 veff max is at point #     6         20203.43
 
  end veff
-mar. 24th 2023    7:11:44:399 am
+jul. 20th 2023    8:46:47:222 pm
 
 
 for j:   188 vmax@  20253.87cm-1        2.6angstrom
@@ -6730,7 +6730,7 @@ for j:   188 vmax@  20253.87cm-1        2.6angstrom
 veff max is at point #     6         20253.87
 
  end veff
-mar. 24th 2023    7:11:44:420 am
+jul. 20th 2023    8:46:47:229 pm
 
 
 for j:   189 vmax@  20304.58cm-1        2.6angstrom
@@ -6761,7 +6761,7 @@ for j:   189 vmax@  20304.58cm-1        2.6angstrom
 veff max is at point #     6         20304.58
 
  end veff
-mar. 24th 2023    7:11:44:441 am
+jul. 20th 2023    8:46:47:236 pm
 
 
 for j:   190 vmax@  20355.56cm-1        2.6angstrom
@@ -6792,7 +6792,7 @@ for j:   190 vmax@  20355.56cm-1        2.6angstrom
 veff max is at point #     6         20355.56
 
  end veff
-mar. 24th 2023    7:11:44:462 am
+jul. 20th 2023    8:46:47:242 pm
 
 
 for j:   191 vmax@  20406.81cm-1        2.6angstrom
@@ -6823,7 +6823,7 @@ for j:   191 vmax@  20406.81cm-1        2.6angstrom
 veff max is at point #     6         20406.81
 
  end veff
-mar. 24th 2023    7:11:44:483 am
+jul. 20th 2023    8:46:47:249 pm
 
 
 for j:   192 vmax@  20458.32cm-1        2.6angstrom
@@ -6854,7 +6854,7 @@ for j:   192 vmax@  20458.32cm-1        2.6angstrom
 veff max is at point #     6         20458.32
 
  end veff
-mar. 24th 2023    7:11:44:503 am
+jul. 20th 2023    8:46:47:256 pm
 
 
 for j:   193 vmax@  20510.10cm-1        2.6angstrom
@@ -6885,7 +6885,7 @@ for j:   193 vmax@  20510.10cm-1        2.6angstrom
 veff max is at point #     6         20510.10
 
  end veff
-mar. 24th 2023    7:11:44:524 am
+jul. 20th 2023    8:46:47:262 pm
 
 
 for j:   194 vmax@  20562.16cm-1        2.6angstrom
@@ -6916,7 +6916,7 @@ for j:   194 vmax@  20562.16cm-1        2.6angstrom
 veff max is at point #     6         20562.16
 
  end veff
-mar. 24th 2023    7:11:44:545 am
+jul. 20th 2023    8:46:47:269 pm
 
 
 for j:   195 vmax@  20614.48cm-1        2.6angstrom
@@ -6947,7 +6947,7 @@ for j:   195 vmax@  20614.48cm-1        2.6angstrom
 veff max is at point #     6         20614.48
 
  end veff
-mar. 24th 2023    7:11:44:566 am
+jul. 20th 2023    8:46:47:276 pm
 
 
 for j:   196 vmax@  20667.06cm-1        2.6angstrom
@@ -6978,7 +6978,7 @@ for j:   196 vmax@  20667.06cm-1        2.6angstrom
 veff max is at point #     6         20667.06
 
  end veff
-mar. 24th 2023    7:11:44:587 am
+jul. 20th 2023    8:46:47:283 pm
 
 
 for j:   197 vmax@  20719.92cm-1        2.6angstrom
@@ -7009,7 +7009,7 @@ for j:   197 vmax@  20719.92cm-1        2.6angstrom
 veff max is at point #     6         20719.92
 
  end veff
-mar. 24th 2023    7:11:44:609 am
+jul. 20th 2023    8:46:47:290 pm
 
 
 for j:   198 vmax@  20773.04cm-1        2.6angstrom
@@ -7040,7 +7040,7 @@ for j:   198 vmax@  20773.04cm-1        2.6angstrom
 veff max is at point #     6         20773.04
 
  end veff
-mar. 24th 2023    7:11:44:630 am
+jul. 20th 2023    8:46:47:297 pm
 
 
 for j:   199 vmax@  20826.44cm-1        2.6angstrom
@@ -7071,7 +7071,7 @@ for j:   199 vmax@  20826.44cm-1        2.6angstrom
 veff max is at point #     6         20826.44
 
  end veff
-mar. 24th 2023    7:11:44:651 am
+jul. 20th 2023    8:46:47:304 pm
 
 
 for j:   200 vmax@  20880.10cm-1        2.6angstrom
@@ -7102,7 +7102,7 @@ for j:   200 vmax@  20880.10cm-1        2.6angstrom
 veff max is at point #     6         20880.10
 
  end veff
-mar. 24th 2023    7:11:44:672 am
+jul. 20th 2023    8:46:47:311 pm
 
 
 for j:   201 vmax@  20935.79cm-1        2.5angstrom
@@ -7133,7 +7133,7 @@ for j:   201 vmax@  20935.79cm-1        2.5angstrom
 veff max is at point #     5         20935.79
 
  end veff
-mar. 24th 2023    7:11:44:694 am
+jul. 20th 2023    8:46:47:318 pm
 
 
 for j:   202 vmax@  20993.38cm-1        2.5angstrom
@@ -7164,7 +7164,7 @@ for j:   202 vmax@  20993.38cm-1        2.5angstrom
 veff max is at point #     5         20993.38
 
  end veff
-mar. 24th 2023    7:11:44:716 am
+jul. 20th 2023    8:46:47:325 pm
 
 
 for j:   203 vmax@  21051.25cm-1        2.5angstrom
@@ -7195,7 +7195,7 @@ for j:   203 vmax@  21051.25cm-1        2.5angstrom
 veff max is at point #     5         21051.25
 
  end veff
-mar. 24th 2023    7:11:44:737 am
+jul. 20th 2023    8:46:47:332 pm
 
 
 for j:   204 vmax@  21109.42cm-1        2.5angstrom
@@ -7226,7 +7226,7 @@ for j:   204 vmax@  21109.42cm-1        2.5angstrom
 veff max is at point #     5         21109.42
 
  end veff
-mar. 24th 2023    7:11:44:759 am
+jul. 20th 2023    8:46:47:339 pm
 
 
 for j:   205 vmax@  21167.86cm-1        2.5angstrom
@@ -7257,7 +7257,7 @@ for j:   205 vmax@  21167.86cm-1        2.5angstrom
 veff max is at point #     5         21167.86
 
  end veff
-mar. 24th 2023    7:11:44:781 am
+jul. 20th 2023    8:46:47:346 pm
 
 
 for j:   206 vmax@  21226.59cm-1        2.5angstrom
@@ -7288,7 +7288,7 @@ for j:   206 vmax@  21226.59cm-1        2.5angstrom
 veff max is at point #     5         21226.59
 
  end veff
-mar. 24th 2023    7:11:44:803 am
+jul. 20th 2023    8:46:47:353 pm
 
 
 for j:   207 vmax@  21285.61cm-1        2.5angstrom
@@ -7319,7 +7319,7 @@ for j:   207 vmax@  21285.61cm-1        2.5angstrom
 veff max is at point #     5         21285.61
 
  end veff
-mar. 24th 2023    7:11:44:825 am
+jul. 20th 2023    8:46:47:361 pm
 
 
 for j:   208 vmax@  21344.91cm-1        2.5angstrom
@@ -7350,7 +7350,7 @@ for j:   208 vmax@  21344.91cm-1        2.5angstrom
 veff max is at point #     5         21344.91
 
  end veff
-mar. 24th 2023    7:11:44:847 am
+jul. 20th 2023    8:46:47:368 pm
 
 
 for j:   209 vmax@  21404.50cm-1        2.5angstrom
@@ -7381,7 +7381,7 @@ for j:   209 vmax@  21404.50cm-1        2.5angstrom
 veff max is at point #     5         21404.50
 
  end veff
-mar. 24th 2023    7:11:44:870 am
+jul. 20th 2023    8:46:47:375 pm
 
 
 for j:   210 vmax@  21464.37cm-1        2.5angstrom
@@ -7412,7 +7412,7 @@ for j:   210 vmax@  21464.37cm-1        2.5angstrom
 veff max is at point #     5         21464.37
 
  end veff
-mar. 24th 2023    7:11:44:892 am
+jul. 20th 2023    8:46:47:382 pm
 
 
 for j:   211 vmax@  21524.53cm-1        2.5angstrom
@@ -7443,7 +7443,7 @@ for j:   211 vmax@  21524.53cm-1        2.5angstrom
 veff max is at point #     5         21524.53
 
  end veff
-mar. 24th 2023    7:11:44:914 am
+jul. 20th 2023    8:46:47:390 pm
 
 
 for j:   212 vmax@  21584.97cm-1        2.5angstrom
@@ -7474,7 +7474,7 @@ for j:   212 vmax@  21584.97cm-1        2.5angstrom
 veff max is at point #     5         21584.97
 
  end veff
-mar. 24th 2023    7:11:44:937 am
+jul. 20th 2023    8:46:47:397 pm
 
 
 for j:   213 vmax@  21645.70cm-1        2.5angstrom
@@ -7505,7 +7505,7 @@ for j:   213 vmax@  21645.70cm-1        2.5angstrom
 veff max is at point #     5         21645.70
 
  end veff
-mar. 24th 2023    7:11:44:959 am
+jul. 20th 2023    8:46:47:404 pm
 
 
 for j:   214 vmax@  21706.71cm-1        2.5angstrom
@@ -7536,7 +7536,7 @@ for j:   214 vmax@  21706.71cm-1        2.5angstrom
 veff max is at point #     5         21706.71
 
  end veff
-mar. 24th 2023    7:11:44:982 am
+jul. 20th 2023    8:46:47:411 pm
 
 
 for j:   215 vmax@  21768.01cm-1        2.5angstrom
@@ -7567,7 +7567,7 @@ for j:   215 vmax@  21768.01cm-1        2.5angstrom
 veff max is at point #     5         21768.01
 
  end veff
-mar. 24th 2023    7:11:45:004 am
+jul. 20th 2023    8:46:47:419 pm
 
 
 for j:   216 vmax@  21829.59cm-1        2.5angstrom
@@ -7598,7 +7598,7 @@ for j:   216 vmax@  21829.59cm-1        2.5angstrom
 veff max is at point #     5         21829.59
 
  end veff
-mar. 24th 2023    7:11:45:027 am
+jul. 20th 2023    8:46:47:426 pm
 
 
 for j:   217 vmax@  21891.46cm-1        2.5angstrom
@@ -7629,7 +7629,7 @@ for j:   217 vmax@  21891.46cm-1        2.5angstrom
 veff max is at point #     5         21891.46
 
  end veff
-mar. 24th 2023    7:11:45:050 am
+jul. 20th 2023    8:46:47:434 pm
 
 
 for j:   218 vmax@  21957.54cm-1        2.4angstrom
@@ -7660,7 +7660,7 @@ for j:   218 vmax@  21957.54cm-1        2.4angstrom
 veff max is at point #     4         21957.54
 
  end veff
-mar. 24th 2023    7:11:45:073 am
+jul. 20th 2023    8:46:47:441 pm
 
 
 for j:   219 vmax@  22024.02cm-1        2.4angstrom
@@ -7691,7 +7691,7 @@ for j:   219 vmax@  22024.02cm-1        2.4angstrom
 veff max is at point #     4         22024.02
 
  end veff
-mar. 24th 2023    7:11:45:096 am
+jul. 20th 2023    8:46:47:449 pm
 
 
 for j:   220 vmax@  22090.81cm-1        2.4angstrom
@@ -7722,7 +7722,7 @@ for j:   220 vmax@  22090.81cm-1        2.4angstrom
 veff max is at point #     4         22090.81
 
  end veff
-mar. 24th 2023    7:11:45:119 am
+jul. 20th 2023    8:46:47:456 pm
 
 
 for j:   221 vmax@  22157.90cm-1        2.4angstrom
@@ -7753,7 +7753,7 @@ for j:   221 vmax@  22157.90cm-1        2.4angstrom
 veff max is at point #     4         22157.90
 
  end veff
-mar. 24th 2023    7:11:45:143 am
+jul. 20th 2023    8:46:47:464 pm
 
 
 for j:   222 vmax@  22225.30cm-1        2.4angstrom
@@ -7784,7 +7784,7 @@ for j:   222 vmax@  22225.30cm-1        2.4angstrom
 veff max is at point #     4         22225.30
 
  end veff
-mar. 24th 2023    7:11:45:169 am
+jul. 20th 2023    8:46:47:471 pm
 
 
 for j:   223 vmax@  22293.00cm-1        2.4angstrom
@@ -7815,7 +7815,7 @@ for j:   223 vmax@  22293.00cm-1        2.4angstrom
 veff max is at point #     4         22293.00
 
  end veff
-mar. 24th 2023    7:11:45:197 am
+jul. 20th 2023    8:46:47:479 pm
 
 
 for j:   224 vmax@  22361.00cm-1        2.4angstrom
@@ -7846,7 +7846,7 @@ for j:   224 vmax@  22361.00cm-1        2.4angstrom
 veff max is at point #     4         22361.00
 
  end veff
-mar. 24th 2023    7:11:45:221 am
+jul. 20th 2023    8:46:47:486 pm
 
 
 for j:   225 vmax@  22429.31cm-1        2.4angstrom
@@ -7877,7 +7877,7 @@ for j:   225 vmax@  22429.31cm-1        2.4angstrom
 veff max is at point #     4         22429.31
 
  end veff
-mar. 24th 2023    7:11:45:245 am
+jul. 20th 2023    8:46:47:494 pm
 
 
 for j:   226 vmax@  22497.92cm-1        2.4angstrom
@@ -7908,7 +7908,7 @@ for j:   226 vmax@  22497.92cm-1        2.4angstrom
 veff max is at point #     4         22497.92
 
  end veff
-mar. 24th 2023    7:11:45:269 am
+jul. 20th 2023    8:46:47:502 pm
 
 
 for j:   227 vmax@  22566.83cm-1        2.4angstrom
@@ -7939,7 +7939,7 @@ for j:   227 vmax@  22566.83cm-1        2.4angstrom
 veff max is at point #     4         22566.83
 
  end veff
-mar. 24th 2023    7:11:45:292 am
+jul. 20th 2023    8:46:47:509 pm
 
 
 for j:   228 vmax@  22636.05cm-1        2.4angstrom
@@ -7970,7 +7970,7 @@ for j:   228 vmax@  22636.05cm-1        2.4angstrom
 veff max is at point #     4         22636.05
 
  end veff
-mar. 24th 2023    7:11:45:317 am
+jul. 20th 2023    8:46:47:517 pm
 
 
 for j:   229 vmax@  22705.57cm-1        2.4angstrom
@@ -8001,7 +8001,7 @@ for j:   229 vmax@  22705.57cm-1        2.4angstrom
 veff max is at point #     4         22705.57
 
  end veff
-mar. 24th 2023    7:11:45:341 am
+jul. 20th 2023    8:46:47:525 pm
 
 
 for j:   230 vmax@  22775.39cm-1        2.4angstrom
@@ -8032,7 +8032,7 @@ for j:   230 vmax@  22775.39cm-1        2.4angstrom
 veff max is at point #     4         22775.39
 
  end veff
-mar. 24th 2023    7:11:45:365 am
+jul. 20th 2023    8:46:47:533 pm
 
 
 for j:   231 vmax@  22845.52cm-1        2.4angstrom
@@ -8063,7 +8063,7 @@ for j:   231 vmax@  22845.52cm-1        2.4angstrom
 veff max is at point #     4         22845.52
 
  end veff
-mar. 24th 2023    7:11:45:389 am
+jul. 20th 2023    8:46:47:541 pm
 
 
 for j:   232 vmax@  22915.95cm-1        2.4angstrom
@@ -8094,7 +8094,7 @@ for j:   232 vmax@  22915.95cm-1        2.4angstrom
 veff max is at point #     4         22915.95
 
  end veff
-mar. 24th 2023    7:11:45:413 am
+jul. 20th 2023    8:46:47:549 pm
 
 
 for j:   233 vmax@  22986.68cm-1        2.4angstrom
@@ -8125,7 +8125,7 @@ for j:   233 vmax@  22986.68cm-1        2.4angstrom
 veff max is at point #     4         22986.68
 
  end veff
-mar. 24th 2023    7:11:45:437 am
+jul. 20th 2023    8:46:47:556 pm
 
 
 for j:   234 vmax@  23057.72cm-1        2.4angstrom
@@ -8156,7 +8156,7 @@ for j:   234 vmax@  23057.72cm-1        2.4angstrom
 veff max is at point #     4         23057.72
 
  end veff
-mar. 24th 2023    7:11:45:461 am
+jul. 20th 2023    8:46:47:564 pm
 
 
 for j:   235 vmax@  23129.07cm-1        2.4angstrom
@@ -8187,7 +8187,7 @@ for j:   235 vmax@  23129.07cm-1        2.4angstrom
 veff max is at point #     4         23129.07
 
  end veff
-mar. 24th 2023    7:11:45:486 am
+jul. 20th 2023    8:46:47:572 pm
 
 
 for j:   236 vmax@  23200.71cm-1        2.4angstrom
@@ -8218,7 +8218,7 @@ for j:   236 vmax@  23200.71cm-1        2.4angstrom
 veff max is at point #     4         23200.71
 
  end veff
-mar. 24th 2023    7:11:45:511 am
+jul. 20th 2023    8:46:47:580 pm
 
 
 for j:   237 vmax@  23272.66cm-1        2.4angstrom
@@ -8249,7 +8249,7 @@ for j:   237 vmax@  23272.66cm-1        2.4angstrom
 veff max is at point #     4         23272.66
 
  end veff
-mar. 24th 2023    7:11:45:535 am
+jul. 20th 2023    8:46:47:588 pm
 
 
 for j:   238 vmax@  23349.26cm-1        2.3angstrom
@@ -8280,7 +8280,7 @@ for j:   238 vmax@  23349.26cm-1        2.3angstrom
 veff max is at point #     3         23349.26
 
  end veff
-mar. 24th 2023    7:11:45:559 am
+jul. 20th 2023    8:46:47:596 pm
 
 
 for j:   239 vmax@  23426.67cm-1        2.3angstrom
@@ -8311,7 +8311,7 @@ for j:   239 vmax@  23426.67cm-1        2.3angstrom
 veff max is at point #     3         23426.67
 
  end veff
-mar. 24th 2023    7:11:45:584 am
+jul. 20th 2023    8:46:47:604 pm
 
 
 for j:   240 vmax@  23504.41cm-1        2.3angstrom
@@ -8342,7 +8342,7 @@ for j:   240 vmax@  23504.41cm-1        2.3angstrom
 veff max is at point #     3         23504.41
 
  end veff
-mar. 24th 2023    7:11:45:608 am
+jul. 20th 2023    8:46:47:612 pm
 
 
 for j:   241 vmax@  23582.47cm-1        2.3angstrom
@@ -8373,7 +8373,7 @@ for j:   241 vmax@  23582.47cm-1        2.3angstrom
 veff max is at point #     3         23582.47
 
  end veff
-mar. 24th 2023    7:11:45:633 am
+jul. 20th 2023    8:46:47:620 pm
 
 
 for j:   242 vmax@  23660.85cm-1        2.3angstrom
@@ -8404,7 +8404,7 @@ for j:   242 vmax@  23660.85cm-1        2.3angstrom
 veff max is at point #     3         23660.85
 
  end veff
-mar. 24th 2023    7:11:45:658 am
+jul. 20th 2023    8:46:47:628 pm
 
 
 for j:   243 vmax@  23739.56cm-1        2.3angstrom
@@ -8435,7 +8435,7 @@ for j:   243 vmax@  23739.56cm-1        2.3angstrom
 veff max is at point #     3         23739.56
 
  end veff
-mar. 24th 2023    7:11:45:683 am
+jul. 20th 2023    8:46:47:636 pm
 
 
 for j:   244 vmax@  23818.59cm-1        2.3angstrom
@@ -8466,7 +8466,7 @@ for j:   244 vmax@  23818.59cm-1        2.3angstrom
 veff max is at point #     3         23818.59
 
  end veff
-mar. 24th 2023    7:11:45:708 am
+jul. 20th 2023    8:46:47:644 pm
 
 
 for j:   245 vmax@  23897.95cm-1        2.3angstrom
@@ -8497,7 +8497,7 @@ for j:   245 vmax@  23897.95cm-1        2.3angstrom
 veff max is at point #     3         23897.95
 
  end veff
-mar. 24th 2023    7:11:45:733 am
+jul. 20th 2023    8:46:47:652 pm
 
 
 for j:   246 vmax@  23977.63cm-1        2.3angstrom
@@ -8528,7 +8528,7 @@ for j:   246 vmax@  23977.63cm-1        2.3angstrom
 veff max is at point #     3         23977.63
 
  end veff
-mar. 24th 2023    7:11:45:757 am
+jul. 20th 2023    8:46:47:661 pm
 
 
 for j:   247 vmax@  24057.63cm-1        2.3angstrom
@@ -8559,7 +8559,7 @@ for j:   247 vmax@  24057.63cm-1        2.3angstrom
 veff max is at point #     3         24057.63
 
  end veff
-mar. 24th 2023    7:11:45:783 am
+jul. 20th 2023    8:46:47:669 pm
 
 
 for j:   248 vmax@  24137.96cm-1        2.3angstrom
@@ -8590,7 +8590,7 @@ for j:   248 vmax@  24137.96cm-1        2.3angstrom
 veff max is at point #     3         24137.96
 
  end veff
-mar. 24th 2023    7:11:45:808 am
+jul. 20th 2023    8:46:47:677 pm
 
 
 for j:   249 vmax@  24218.62cm-1        2.3angstrom
@@ -8621,7 +8621,7 @@ for j:   249 vmax@  24218.62cm-1        2.3angstrom
 veff max is at point #     3         24218.62
 
  end veff
-mar. 24th 2023    7:11:45:833 am
+jul. 20th 2023    8:46:47:685 pm
 
 
 for j:   250 vmax@  24299.59cm-1        2.3angstrom
@@ -8652,7 +8652,7 @@ for j:   250 vmax@  24299.59cm-1        2.3angstrom
 veff max is at point #     3         24299.59
 
  end veff
-mar. 24th 2023    7:11:45:859 am
+jul. 20th 2023    8:46:47:694 pm
 
 
 for j:   251 vmax@  24380.89cm-1        2.3angstrom
@@ -8683,7 +8683,7 @@ for j:   251 vmax@  24380.89cm-1        2.3angstrom
 veff max is at point #     3         24380.89
 
  end veff
-mar. 24th 2023    7:11:45:884 am
+jul. 20th 2023    8:46:47:702 pm
 
 
 for j:   252 vmax@  24462.51cm-1        2.3angstrom
@@ -8714,7 +8714,7 @@ for j:   252 vmax@  24462.51cm-1        2.3angstrom
 veff max is at point #     3         24462.51
 
  end veff
-mar. 24th 2023    7:11:45:910 am
+jul. 20th 2023    8:46:47:710 pm
 
 
 for j:   253 vmax@  24544.46cm-1        2.3angstrom
@@ -8745,7 +8745,7 @@ for j:   253 vmax@  24544.46cm-1        2.3angstrom
 veff max is at point #     3         24544.46
 
  end veff
-mar. 24th 2023    7:11:45:935 am
+jul. 20th 2023    8:46:47:718 pm
 
 
 for j:   254 vmax@  24626.73cm-1        2.3angstrom
@@ -8776,7 +8776,7 @@ for j:   254 vmax@  24626.73cm-1        2.3angstrom
 veff max is at point #     3         24626.73
 
  end veff
-mar. 24th 2023    7:11:45:961 am
+jul. 20th 2023    8:46:47:727 pm
 
 
 for j:   255 vmax@  24709.33cm-1        2.3angstrom
@@ -8807,7 +8807,7 @@ for j:   255 vmax@  24709.33cm-1        2.3angstrom
 veff max is at point #     3         24709.33
 
  end veff
-mar. 24th 2023    7:11:45:987 am
+jul. 20th 2023    8:46:47:735 pm
 
 
 for j:   256 vmax@  24792.25cm-1        2.3angstrom
@@ -8838,7 +8838,7 @@ for j:   256 vmax@  24792.25cm-1        2.3angstrom
 veff max is at point #     3         24792.25
 
  end veff
-mar. 24th 2023    7:11:46:012 am
+jul. 20th 2023    8:46:47:743 pm
 
 
 for j:   257 vmax@  24875.49cm-1        2.3angstrom
@@ -8869,7 +8869,7 @@ for j:   257 vmax@  24875.49cm-1        2.3angstrom
 veff max is at point #     3         24875.49
 
  end veff
-mar. 24th 2023    7:11:46:038 am
+jul. 20th 2023    8:46:47:752 pm
 
 
 for j:   258 vmax@  24959.06cm-1        2.3angstrom
@@ -8900,7 +8900,7 @@ for j:   258 vmax@  24959.06cm-1        2.3angstrom
 veff max is at point #     3         24959.06
 
  end veff
-mar. 24th 2023    7:11:46:064 am
+jul. 20th 2023    8:46:47:760 pm
 
 
 for j:   259 vmax@  25042.95cm-1        2.3angstrom
@@ -8931,7 +8931,7 @@ for j:   259 vmax@  25042.95cm-1        2.3angstrom
 veff max is at point #     3         25042.95
 
  end veff
-mar. 24th 2023    7:11:46:090 am
+jul. 20th 2023    8:46:47:769 pm
 
 
 for j:   260 vmax@  25127.17cm-1        2.3angstrom
@@ -8962,7 +8962,7 @@ for j:   260 vmax@  25127.17cm-1        2.3angstrom
 veff max is at point #     3         25127.17
 
  end veff
-mar. 24th 2023    7:11:46:116 am
+jul. 20th 2023    8:46:47:777 pm
 
 
 for j:   261 vmax@  25211.71cm-1        2.3angstrom
@@ -8993,7 +8993,7 @@ for j:   261 vmax@  25211.71cm-1        2.3angstrom
 veff max is at point #     3         25211.71
 
  end veff
-mar. 24th 2023    7:11:46:142 am
+jul. 20th 2023    8:46:47:786 pm
 
 
 for j:   262 vmax@  25302.20cm-1        2.2angstrom
@@ -9024,7 +9024,7 @@ for j:   262 vmax@  25302.20cm-1        2.2angstrom
 veff max is at point #     2         25302.20
 
  end veff
-mar. 24th 2023    7:11:46:168 am
+jul. 20th 2023    8:46:47:794 pm
 
 
  convergence for reactant
@@ -9104,19 +9104,19 @@ mar. 24th 2023    7:11:46:168 am
       10    400.00   5.21236E-11   5.21236E-11
       11    500.00   1.08330E-05   1.08330E-05
  end micro_rates
-mar. 24th 2023    7:11:49:303 am
+jul. 20th 2023    8:46:49:754 pm
 
 
  start jaread_input
-mar. 24th 2023    7:11:49:304 am
+jul. 20th 2023    8:46:49:754 pm
 
 
  end jaread_input
-mar. 24th 2023    7:11:50:795 am
+jul. 20th 2023    8:46:50:322 pm
 
 
  end main
-mar. 24th 2023    7:11:50:795 am
+jul. 20th 2023    8:46:50:322 pm
 
 
-elapsed time:      8.85 seconds.
+elapsed time:      3.90 seconds.
