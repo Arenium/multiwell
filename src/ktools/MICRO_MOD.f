@@ -853,40 +853,37 @@ c  Find max J value present
       open(unit=iunit,file=inputfile)
       lnct=0
       read(iunit,*)junk
+      read(iunit,*)junk, maxj, emax, de
       read(iunit,*)viblo
       lnct=lnct+1
 
       read(iunit,"(A)",IOSTAT=eol1)line
       read(line,*,IOSTAT=eol2)jays
-      maxj=maxval(jays)+1
-c      write(*,*)maxj
 
-c
 c  Read in rotational energies
       read(iunit,"(A)",IOSTAT=eol1)line
       read(line,*,IOSTAT=eol2)junk,rotjay
       lnct=lnct+1
 
-
 c
 c  Skip blank line
 
-      read(iunit,*)     
-      lnct=lnct+1
-      read(iunit,*,iostat=reason)emax1
-      lnct=lnct+1
-      read(iunit,*,iostat=reason)emax2
-      lnct=lnct+1
-      de=emax2-emax1
+C      read(iunit,*)     
+C      lnct=lnct+1
+C      read(iunit,*,iostat=reason)emax1
+c      lnct=lnct+1
+c      read(iunit,*,iostat=reason)emax2
+c      lnct=lnct+1
+c      de=emax2-emax1
 c      write(*,*)emax1,emax2,de
 
 c
 c  Find max E present
-      do
-        read(iunit,*,iostat=reason)emax
-        lnct=lnct+1
-        if(reason.lt.0)goto 700
-      end do
+c      do
+c        read(iunit,*,iostat=reason)emax
+c        lnct=lnct+1
+c        if(reason.lt.0)goto 700
+c      end do
  700  close(iunit)
 
  
@@ -1907,7 +1904,7 @@ c......           write(*,*) i, tp
       character(len=*) fname,uname,nname
       character frmt*60,namefile*60,tstmp*10
       parameter (tunit=24,one=1)
-      
+     
       if(uname.eq.'')then
          namefile='dat.'//trim(fname)
       else
@@ -1922,6 +1919,7 @@ c      call dnt(tunit)
 c      write(tunit,*)
 c      write(tunit,*)
       write(tunit,*)'run id: ',tstmp
+      write(tunit,*)'dimensions: ',(dimmi-1)/dj,dimmj,de
       write(tunit,*)vl
       if(dimmi.eq.1)then
             write(frmt,'("(14x,i9,3x,i15,3x)")')
